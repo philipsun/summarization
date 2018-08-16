@@ -50,7 +50,7 @@ Set up the ini file in your pyrouge directory, <b>settings.ini</b>
 
 and copy it to 
 
-<b>C:\\Users\\sunxp\\AppData\\Roaming\\pyrouge\\settings.ini</b>
+<b>C:\\Users\\your account in windows\\AppData\\Roaming\\pyrouge\\settings.ini</b>
 
 >[pyrouge settings]
 >
