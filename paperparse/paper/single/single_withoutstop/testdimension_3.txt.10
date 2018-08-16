@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>testdimension_3.txt.pk</title>
+</head>
+<body bgcolor="white">
+<a name="1">[1]</a> <a href="#1" id=1>b) Select and use pictures to replace the texts in summary c) Select and insert pictures into summary at appropriate places d) Classifying pictures from multiple dimensions including time and location, which help distinguish pictures of different dimensions so that appropriate pictures can be selected to match the text in the summary.</a>
+<a name="2">[2]</a> <a href="#2" id=2>A summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users.</a>
+<a name="3">[3]</a> <a href="#3" id=3>Multi-dimensional summarization is a function S(P(d1, , dm)) = T(di, , dj), which transforms a representation p(d1=p1 , dm=pm) in the source space of representations P with dimensions d1, , and dm into a representation t(di=ti, , dj=pj) in the target space of representations T with dimensions di, , and dj (m j i 1) such that t contains the core of p at dimensions di, , and dj.</a>
+<a name="4">[4]</a> <a href="#4" id=4>The summarization S of a set of representations P is rendered by its intention Int(P) and extension Ext(B) as follows, where S(Int(P)) is the summarization of the intention of P, S(Int(P) Ext(P)) is the summarization of the intention and extension of P, p p means that p cites p , {Cite(pi p i [1, , m]} denotes the set of cite representations in pi that cites p, and Cite(pi p) describes p from the view of the author of pi.</a>
+</body>
+</html>

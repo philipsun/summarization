@@ -1,0 +1,16 @@
+(lp0
+V1) focusing on still picture (static storyboard), a small collection of salient images extracted from video sources; and, (2) focusing on moving pictures (moving storyboard), a collection of image sequences, and the corresponding audio abstract extracted from the original sequence, which results in a short video clip
+p1
+aVSimple structures such as list, tree and grid have been widely used to summarize representations in daily life, e.g.,, displaying table of contents, family trees, organization structures, and properties on map
+p2
+aVApplications include Web portals such as Yahoo, YouTube, posters, slides, medical certificate, TV guides, advertisements and conference programs
+p3
+aVSome summaries are mainly in form of text such as the abstracts of scientific papers, the prefaces of books, the tables of contents, CVs, the headlines of news, webpages with hyperlinks, book reviews, Wikipedia, and the results of Web search
+p4
+aVIn macroscopic, it is important to represent the background of the video and relevant social structure, interests, fashion, rules, regulations, laws and culture of society in a summarization system
+p5
+aV1995] [Daumé and Marcu 2006][Louis, 2014], rich features and decision trees [Lin and Hovy, 1997], Markov Models [Conroy, 2001], Neural Networks [Nenkova, 2005], classification [Teufel 2002] [Pang and Lee, 2004], and hybrid machine learning method [Fattah, 2014]
+p6
+aVThese implicit citations can be located and transformed into explicit citation by searching these mark words and the references according to author names mentioned in text and then inserting uniform citation marks like scientific papers
+p7
+a.

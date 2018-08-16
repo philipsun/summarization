@@ -1,0 +1,16 @@
+(lp0
+VThis paper summarizes previous text summarization approaches in a multi-dimensional classification space, introduces a multi-dimensional methodology for research and development, unveils the basic characteristics and principles of language use and understanding, investigates some fundamental mechanisms of summarization, studies the dimensions and forms of representations, and proposes a multi-dimensional evaluation mechanisms
+p1
+aV1) focusing on still picture (static storyboard), a small collection of salient images extracted from video sources; and, (2) focusing on moving pictures (moving storyboard), a collection of image sequences, and the corresponding audio abstract extracted from the original sequence, which results in a short video clip
+p2
+aVA significant progress of summarization research relies on an innovative summarization of philosophy, psychology, linguistics, cognitive science, neuroscience, physics, computer science, and artificial intelligence from multiple dimensions
+p3
+aVSimple structures such as list, tree and grid have been widely used to summarize representations in daily life, e.g.,, displaying table of contents, family trees, organization structures, and properties on map
+p4
+aVSome summaries are mainly in form of text such as the abstracts of scientific papers, the prefaces of books, the tables of contents, CVs, the headlines of news, webpages with hyperlinks, book reviews, Wikipedia, and the results of Web search
+p5
+aVApplications include Web portals such as Yahoo, YouTube, posters, slides, medical certificate, TV guides, advertisements and conference programs
+p6
+aVIn macroscopic, it is important to represent the background of the video and relevant social structure, interests, fashion, rules, regulations, laws and culture of society in a summarization system
+p7
+a.

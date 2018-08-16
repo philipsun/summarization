@@ -1,0 +1,20 @@
+(lp0
+Ve) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary
+p1
+aVA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p2
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p3
+aVsummary should use the core representations in the original representation
+p4
+aVb) Select and use pictures to replace the texts in summary c) Select and insert pictures into summary at appropriate places d) Classifying pictures from multiple dimensions including time and location, which help distinguish pictures of different dimensions so that appropriate pictures can be selected to match the text in the summary
+p5
+aVThe intention of representation is indicated by core representations and by citation from other representations
+p6
+aVFigure 8 depicts the idea of constructing a semantic link network of pictures and tags as a summary
+p7
+aVOne semantic link network of texts can link to the other semantic link networks of texts to form a larger semantic link network through such relations as citation and coauthor
+p8
+aV1) a representation suitable for summarization should have a core, indicated by its intention and extension; (2) summarization is an open process of various interactions, involved in various explicit and implicit citations; and, (3) the form of summary is diverse and summarization carries out through multiple dimensions
+p9
+a.

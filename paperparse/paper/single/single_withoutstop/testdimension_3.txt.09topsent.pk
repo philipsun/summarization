@@ -1,0 +1,28 @@
+(lp0
+VA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p1
+aVe) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary
+p2
+aVSummarization is involved in representation and understanding
+p3
+aVDimensionality on Summarization
+p4
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p5
+aVsummary should use the core representations in the original representation
+p6
+aVA multi-dimensional classification space of summarization methods
+p7
+aVText summarization is a special case of summarization
+p8
+aVIf we regard a text as a graph of words or sentences, text summarization can be regarded as a problem of summarizing a semantic link network [Zhuge, 2009], where nodes and edges can be texts, pictures and videos
+p9
+aVThe core representations in one representation (e.g.,, text) render its topic
+p10
+aVThe core representation renders the core idea of a representation
+p11
+aVb) Select and use pictures to replace the texts in summary c) Select and insert pictures into summary at appropriate places d) Classifying pictures from multiple dimensions including time and location, which help distinguish pictures of different dimensions so that appropriate pictures can be selected to match the text in the summary
+p12
+aVAs a kind of language representation, summarization should be based on the basic principles of language use
+p13
+a.

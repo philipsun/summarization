@@ -1,0 +1,1 @@
+ We have shown that Tversky u'\u2019' s asymmetric ratio models can improve performance in capturing human judgments and produce better nearest neighbors. To validate these very preliminary results, we need to explore applications compatible with asymmetry, such as the TOEFL-like synonym discovery task in Freitag et al. [ 7 ] , and the PP-attachment task in Dagan et al. [ 4 ] .

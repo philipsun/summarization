@@ -1,0 +1,28 @@
+(lp0
+Ve) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary
+p1
+aVsummary should use the core representations in the original representation
+p2
+aVA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p3
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p4
+aVThe core representations in one representation (e.g.,, text) render its topic
+p5
+aVThe intention of representation is indicated by core representations and by citation from other representations
+p6
+aVThe core representation renders the core idea of a representation
+p7
+aVSemantic link Network
+p8
+aVThe representation that has a direct link to the core representation is close-core representation
+p9
+aVOne semantic link network of texts can link to the other semantic link networks of texts to form a larger semantic link network through such relations as citation and coauthor
+p10
+aVThe general summarization inputs a representation and a cognitive level at certain ontology and then outputs a representation lattice and a recommended representation
+p11
+aVIf we regard a text as a graph of words or sentences, text summarization can be regarded as a problem of summarizing a semantic link network [Zhuge, 2009], where nodes and edges can be texts, pictures and videos
+p12
+aVThis priority arranges relevant representations distributed in the original representation at the places close to the core representations in the summary
+p13
+a.

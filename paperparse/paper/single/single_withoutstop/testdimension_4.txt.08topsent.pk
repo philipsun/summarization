@@ -1,0 +1,26 @@
+(lp0
+Ve) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary
+p1
+aVA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p2
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p3
+aVOne semantic link network of texts can link to the other semantic link networks of texts to form a larger semantic link network through such relations as citation and coauthor
+p4
+aVThe union of the semantic link network and the classification space forms a complex classification space used to represent and organize semantic images
+p5
+aVStudying the summarization of pictures, videos and graphs reaches a general summarization method
+p6
+aVSummarization is involved in representation and understanding
+p7
+aVsummary should use the core representations in the original representation
+p8
+aVThe intention of representation is indicated by core representations and by citation from other representations
+p9
+aVA solution is to establish the semantic links between pictures, discover the communities of the semantic link network of pictures, select one picture to represent one community, and construct a network of the representative pictures
+p10
+aVThe representation that has a direct link to the core representation is close-core representation
+p11
+aVThe semantic link network can be regarded as the map of the cyberspace and social space
+p12
+a.

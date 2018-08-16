@@ -1,0 +1,5 @@
+In this paper I will explore and  identify the benefts  of Support  Vector  Machines  (SVMs)   for text categorization.  SVMs are a new  learning  method introduced by V. Vapnik et al. 
+They are well-founded in terms of computational learning theory  and  very op en to theoretical  understanding  and analysis. After  reviewing  the  standard  feature  vector  representation  of  text, I will identify the  particular prop erties of text  in this representation  in section  4.
+I will argue  that SVMs   are  very well suited  for learning in this setting. The  empirical results in section 5 will support this claim.
+Compared to state-of-the-art methods, SVMs show substantial performance gains.
+Moreover, in contrast  to conventional   text classification  methods SVMs will prove  to  b e very robust, eliminating  the need  for exp ensive parameter   tuning. 

@@ -1,0 +1,126 @@
+"root":[
+	"summarization":["Natural language processing", "classification", "semantic link", "dimension", "text summarization","video summarization", "graph summarization", "picture summarization"
+	],
+	"Versatile summaries":
+	[
+		"text","pictures", "videos", "graphs", "tables"
+	],
+
+	"good summary":
+	[
+		"quickly attract attention", "represent the core idea", "effectively convey the meaning according to interests"
+	],
+	"Definition":["automatic text summarization":["Selection","Ordering","Realization"],
+		"characteristics":[	"from text to text", "automation", "closed system"]
+	],
+	"Related work":["input types":["single text", "multiple text", "hybrid"],
+		"output types":["extractive summarization","synthesized summarization"],
+		"methods":["Information fusion","Information retrieval", "machine learning","Natural language analysis","Classification and clustering","Semantics-based","others"],
+		"evaluation":["human", "semi-automatic", "automatic"]
+	],	
+	"multi-dimensional methodology":
+	[
+		"summarization methodology":
+		["rationlism", "Individual and social constructionism", "evolutionism", "Pragmatism","mental structure", "multiple dimensions","integration"],
+		"Language use and understanding":
+		["characteristics of language":
+			["mind", "language", "use", "self-organize", "not unique", "representation of knowledge", "understanding of representation"]
+		],
+		"princiles of summarization":
+		[
+			"separation princile":["structure", "semantics", "representation", "knowledge", "summarization"],
+			"social selection principle",
+			"knowledge selection", 
+			"suiable summerizer":["authors", "cite", "representation","best person"]
+		],
+
+		"evaluation principles of summarization":
+		["relativity", "moderate", "dynamicity", "openness"
+		],
+
+		"summarization strategies":
+		["person who have rich social relations with original authors", "adapting to readers interst", "through human-machine interaction", "transforming summarizations into the problem of searching suitable persons", "known the background of representation"
+		]
+	],
+	"General citation":
+	[
+		"definition":["individual selection","relevant representations","representation","explicitly or implicitly"],
+		"form":[ "The extension of representation","intention of representation","The core representation"],
+		"Additive Axiom":["A representation can be composed by a set of representations", "Extension and intention rendered by citation"],
+		"basic behaviors of summarization":["emerging", "selecting", "citing explicitly or implicitly","and organizing representations"],
+		"Summarization as citation":[ "intension", "extension", "cite", "fundamental behavior and mechanism of summarization"]
+	],
+	"Dimension of Representation":
+	[
+		"dimension of structuring summary":["dimension":["time","author", "core"], "multiple topics","generalization and specialization threads","topic relevancy threads","time dimension","evolution of topics"],
+		"summarization on-demond":["personal space", "personal reading experience", "interests and knowledge", "transform representation", "classification space", "transform point to personal space"],
+		"Form":["interface","simple structure","hypertext","semantic link network", "multimedia", "emerging","new device"]
+	],
+	
+	"Multi-dimensional Evaluation":
+	[
+		"reader":["interest","cognitive level"], "author", "input","summarizer":["openness","adaptability","interactivity"], "output":["core", "representation","coherence","completeness"]
+	],
+	"Incorporating pictures into summary":
+	[
+		"more attractive", "different effects", "new direction",
+		"problems and strategies":
+		[
+		"how to", "select proper pictures", "how to organize pictures and texts", "how to identify events and link them to appropriate texts"
+		],
+		"event dimension":
+		[
+		"time", "location", "people", "category", "representation"
+		]
+	],
+	"Summarizing vidows, graphs and pictures":
+	[
+		"video":[ "atuomatic video summarization is important", 
+		"fundamental classes":["still picture", "moving picture"],
+		"essential characteristics", "high-dimensional features", "subtitles of movie", "semantics-based", "semantic link", "important":["represent body language", "spoken language", "emotion", "habit"], "macroscopic importance":["represent background", "relevant social structure", "in-depth understanding of basic interaction princile"]
+		],
+		"graph":["generalization of various real networks in cyberspace", "physical space", "social space",
+		"provde more general data structure",
+		"help humans understand large-scale graphs"
+		],
+		"picture":[
+		"generate a small set of pictuers from a large set of pictuers",
+		"help make summary",
+		"can be extended to":
+			["generating text to represent pictures",
+			"selecting one picture to represent a set of related pictures",
+			"generating a small network of pictures",
+			"generating a small network of texts"
+			]
+		]
+	],
+	"general summarization":
+	[
+		"unification":["thoughts", "behaviors", "artifacts", "the nature", "various device", "various representation"],
+		"cognitive level":[ "pyschological representation","semantic image":"image-like representation"],
+		"discovering unity":["important", "hard"],
+		"unified representation": ["reflect the most fundamental characteristics", "UML represents business process"],
+
+		"Transformation with dimension reduction":["text into semantic link network", "link to other semantic link network", "video into semantic link network", "unified method for summarization", "a complex semantic link network of different form",
+		"cyberspace":["huge links among text", "video","audio","link evolve"],
+		"transform between representations": "to realize unification",
+		"summarization": "a special transformation", "reducing dimensions of representation",
+		"Multi-dimensional summarization definition": "function", "transforms representation into a representation", "source space", "target space", "contain core at dimensions", "based on citation", "reflects the basic cognitive level"],
+		"cognitive level":
+		[
+		"mental concepts", "hierarchy of universal concepts", "coginitive hierarchy", "basic coginitive level", "different communities have different basic coginitve levels",
+		"relevant research":[ "commonsense", "knowledge level", "abstraction"],
+		"suitable summary":"cognitive level same as the reader coginitive level",
+		"rules": ["original representation", "core representation for summary","higer coginitive level", "specific concepts", "commonsense category heirarch","lower coginitive level", "general concepts", "commonsense hierarchy"]
+		],
+
+
+		"Representation lattic":
+		[
+		"pyschology": ["hypothetical internal cognitive symbol", "represent extenal reality", "complex mental physical social behavior","ontology":["general representation","pragrmatism", "for information sharing", "explain representation"]
+		],
+		"representation":["can be generalized", "united", "semantically linked", "form lattice of representation", "coginitive level of ontology"],
+		"Abstract representation":["common characteristics of concerned representation", "usefull for developing theories"]
+		]
+	]	
+]

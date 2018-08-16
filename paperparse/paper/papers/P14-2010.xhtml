@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sprinkling Topics for Weakly Supervised Text Classification</title>
+<!--Generated on Wed Jun 11 17:32:43 2014 by LaTeXML (version 0.8.0) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on .-->
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+<link rel="stylesheet" href="LaTeXML.css" type="text/css"/>
+<link rel="stylesheet" href="ltx-article.css" type="text/css"/>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<div class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_font_normal ltx_title_document">Sprinkling Topics for Weakly Supervised Text Classification</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_text ltx_font_normal">Swapnil Hingmire</span><math xmlns="http://www.w3.org/1998/Math/MathML" id="m1" class="ltx_Math" alttext="{}^{\textrm{1}}" display="inline"><msup><mi/><mtext mathsize="normal" stretchy="false">1</mtext></msup></math><math xmlns="http://www.w3.org/1998/Math/MathML" id="m2" class="ltx_Math" alttext="{}^{\textrm{,}}" display="inline"><msup><mi/><mtext mathsize="normal" stretchy="false">,</mtext></msup></math><math xmlns="http://www.w3.org/1998/Math/MathML" id="m3" class="ltx_Math" alttext="{}^{\textrm{2}}" display="inline"><msup><mi/><mtext mathsize="normal" stretchy="false">2</mtext></msup></math>
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter ltx_font_normal">swapnil.hingmire@tcs.com</span><span class="ltx_text ltx_font_normal">
+</span>
+<br class="ltx_break"/>&amp;<span class="ltx_text ltx_font_normal">Sutanu Chakraborti</span><math xmlns="http://www.w3.org/1998/Math/MathML" id="m4" class="ltx_Math" alttext="{}^{\textrm{2}}" display="inline"><msup><mi/><mtext mathsize="normal" stretchy="false">2</mtext></msup></math>
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter ltx_font_normal">sutanuc@cse.iitm.ac.in<span class="ltx_ERROR undefined">\@close@row</span></span><span class="ltx_text ltx_font_normal">  </span>
+<br class="ltx_break"/><span class="ltx_text" style="width:433.6pt;">  <span class="ltx_text" style="width:0.0pt;">
+<table class="ltx_tabular ltx_align_top">
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="m5" class="ltx_Math" alttext="{}^{\textrm{1}}" display="inline"><msup><mi/><mtext>1</mtext></msup></math>Systems Research Lab, Tata Research Development and Design Center, Pune, India</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="m6" class="ltx_Math" alttext="{}^{\textrm{2}}" display="inline"><msup><mi/><mtext>2</mtext></msup></math>Department of Computer Science and Engineering,</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_right">Indian Institute of Technology Madras, Chennai, India</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">1. for each topic <math xmlns="http://www.w3.org/1998/Math/MathML" id="m7" class="ltx_Math" alttext="t" display="inline"><mi mathsize="normal" stretchy="false">t</mi></math>, draw a distribution over words: <span class="ltx_text ltx_font_footnote">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="m8" class="ltx_Math" alttext="\phi_{t}\sim\mathrm{Dirichlet}(\beta_{w})" display="inline"><mrow><msub><mi mathsize="normal" stretchy="false">ϕ</mi><mi mathsize="normal" stretchy="false">t</mi></msub><mo mathsize="normal" stretchy="false">∼</mo><mrow><mi mathsize="normal" stretchy="false">Dirichlet</mi><mo mathsize="small" stretchy="false">⁢</mo><mrow><mo mathsize="small" stretchy="false">(</mo><msub><mi mathsize="normal" stretchy="false">β</mi><mi mathsize="normal" stretchy="false">w</mi></msub><mo mathsize="small" stretchy="false">)</mo></mrow></mrow></mrow></math></span></td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">2. for each document <math xmlns="http://www.w3.org/1998/Math/MathML" id="m9" class="ltx_Math" alttext="d\in D" display="inline"><mrow><mi mathsize="normal" stretchy="false">d</mi><mo mathsize="normal" stretchy="false">∈</mo><mi mathsize="normal" stretchy="false">D</mi></mrow></math></td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">a. Draw a vector of topic proportions:</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="m10" class="ltx_Math" alttext="\theta_{d}\sim\mathrm{Dirichlet}(\alpha_{t})" display="inline"><mrow><msub><mi mathsize="normal" stretchy="false">θ</mi><mi mathsize="normal" stretchy="false">d</mi></msub><mo mathsize="normal" stretchy="false">∼</mo><mrow><mi mathsize="normal" stretchy="false">Dirichlet</mi><mo>⁢</mo><mrow><mo>(</mo><msub><mi mathsize="normal" stretchy="false">α</mi><mi mathsize="normal" stretchy="false">t</mi></msub><mo>)</mo></mrow></mrow></mrow></math></td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">b. for each word <math xmlns="http://www.w3.org/1998/Math/MathML" id="m11" class="ltx_Math" alttext="w" display="inline"><mi mathsize="normal" stretchy="false">w</mi></math> at position <math xmlns="http://www.w3.org/1998/Math/MathML" id="m12" class="ltx_Math" alttext="n" display="inline"><mi mathsize="normal" stretchy="false">n</mi></math> in <math xmlns="http://www.w3.org/1998/Math/MathML" id="m13" class="ltx_Math" alttext="d" display="inline"><mi mathsize="normal" stretchy="false">d</mi></math></td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">i. Draw a topic assignment:</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="m14" class="ltx_Math" alttext="z_{d,n}\sim\mathrm{Multinomial}(\theta_{d})" display="inline"><mrow><msub><mi mathsize="normal" stretchy="false">z</mi><mrow><mi mathsize="normal" stretchy="false">d</mi><mo>,</mo><mi mathsize="normal" stretchy="false">n</mi></mrow></msub><mo mathsize="normal" stretchy="false">∼</mo><mrow><mi mathsize="normal" stretchy="false">Multinomial</mi><mo>⁢</mo><mrow><mo>(</mo><msub><mi mathsize="normal" stretchy="false">θ</mi><mi mathsize="normal" stretchy="false">d</mi></msub><mo>)</mo></mrow></mrow></mrow></math></td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center">ii. Draw a word:</td></tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="m15" class="ltx_Math" alttext="w_{d,n}\sim\mathrm{Multinomial}(z_{d,n})" display="inline"><mrow><msub><mi mathsize="normal" stretchy="false">w</mi><mrow><mi mathsize="normal" stretchy="false">d</mi><mo>,</mo><mi mathsize="normal" stretchy="false">n</mi></mrow></msub><mo mathsize="normal" stretchy="false">∼</mo><mrow><mi mathsize="normal" stretchy="false">Multinomial</mi><mo>⁢</mo><mrow><mo>(</mo><msub><mi mathsize="normal" stretchy="false">z</mi><mrow><mi mathsize="normal" stretchy="false">d</mi><mo>,</mo><mi mathsize="normal" stretchy="false">n</mi></mrow></msub><mo>)</mo></mrow></mrow></mrow></math></td></tr>
+</tbody>
+</table></span></span>
+</span></span></div>
+<div class="ltx_date ltx_role_creation"/>
+
+<div class="ltx_abstract"><h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">Supervised text classification algorithms require a large number of documents labeled by humans, that involve a labor-intensive and time consuming process. In this paper, we propose a weakly supervised algorithm in which supervision comes in the form of labeling of Latent Dirichlet Allocation (LDA) topics. We then use this weak supervision to “sprinkle” artificial words to the training documents to identify topics in accordance with the underlying class structure of the corpus based on the higher order word associations. We evaluate this approach to improve performance of text classification on three real world datasets.</p>
+</div>
+<div id="S1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+
+<div id="S1.p1" class="ltx_para">
+<p class="ltx_p">In supervised text classification learning algorithms, the learner (a program) takes
+human labeled documents as input and learns a decision function that can classify a
+previously unseen document to one of the predefined classes.
+Usually a large number of documents labeled by humans are used by the learner
+to classify unseen documents with adequate accuracy. Unfortunately, labeling a large
+number of documents is a labor-intensive and time consuming process.</p>
+</div>
+<div id="S1.p2" class="ltx_para">
+<p class="ltx_p">In this paper, we propose a text classification algorithm based on Latent Dirichlet Allocation (LDA) <cite class="ltx_cite">[]</cite> which does not need labeled documents. LDA is an unsupervised probabilistic topic model and it is widely used to discover latent semantic structure of a document collection by modeling words in the documents. Blei et al. <cite class="ltx_cite">[]</cite> used LDA topics as features in text classification, but they use labeled documents while learning a classifier. sLDA <cite class="ltx_cite">[]</cite>, DiscLDA <cite class="ltx_cite">[]</cite> and MedLDA <cite class="ltx_cite">[]</cite> are few extensions of LDA which model both class labels and words in the documents. These models can be used for text classification, but they need expensive labeled documents.</p>
+</div>
+<div id="S1.p3" class="ltx_para">
+<p class="ltx_p">An approach that is less demanding in terms of knowledge engineering is ClassifyLDA (Hingmire et al., 2013). In this approach, a topic model on a given set of unlabeled training documents is constructed using LDA, then an annotator assigns a class label to some topics based on their most probable words. These labeled topics are used to create a new topic model such that in the new model topics are better aligned to class labels. A class label is assigned to a test document on the basis of its most prominent topics. We extend ClassifyLDA algorithm by “sprinkling” topics to unlabeled documents.</p>
+</div>
+<div id="S1.p4" class="ltx_para">
+<p class="ltx_p">Sprinkling <cite class="ltx_cite">[]</cite> integrates class labels of documents into Latent Semantic Indexing (LSI)<cite class="ltx_cite">[]</cite>. The basic idea involves encoding of class labels as artificial words which are “sprinkled” (appended) to training documents. As LSI uses higher order word associations <cite class="ltx_cite">[]</cite>, sprinkling of artificial words gives better and class-enriched latent semantic structure. However, Sprinkled LSI is a supervised technique and hence it requires expensive labeled documents. The paper revolves around the idea of labeling topics (which are far fewer in number compared to documents) as in ClassifyLDA, and using these labeled topic for sprinkling.</p>
+</div>
+<div id="S1.p5" class="ltx_para">
+<p class="ltx_p">As in ClassifyLDA, we ask an annotator to assign class labels to a set of topics inferred on the unlabeled training documents. We use the labeled topics to find probability distribution of each training document over the class labels. We create a set of artificial words corresponding to a class label and add (or sprinkle) them to the document. The number of such artificial terms is proportional to the probability of generating the document by the class label. We then infer a set of topics on the sprinkled training documents. As LDA uses higher order word associations <cite class="ltx_cite">[]</cite> while discovering topics, we hypothesize that sprinkling will improve text classification performance of ClassifyLDA. We experimentally verify this hypothesis on three real world datasets.</p>
+</div>
+</div>
+<div id="S2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">2 </span>Related Work</h2>
+
+<div id="S2.p1" class="ltx_para">
+<p class="ltx_p">Several researchers have proposed semi-supervised text classification algorithms with the aim of reducing the time, effort and cost involved in labeling documents. These algorithms can be broadly categorized into three categories depending on how supervision is provided. In the first category, a small set of labeled documents and a large set of unlabeled documents is used while learning a classifier. Semi-supervised text classification algorithms proposed in <cite class="ltx_cite">[]</cite>, <cite class="ltx_cite">[]</cite>, <cite class="ltx_cite">[]</cite> and <cite class="ltx_cite">[]</cite> are a few examples of this type. However, these algorithms are sensitive to initial labeled documents and hyper-parameters of the algorithm.</p>
+</div>
+<div id="S2.p2" class="ltx_para">
+<p class="ltx_p">In the second category, supervision comes in the form of labeled words (features). <cite class="ltx_cite">[]</cite> and <cite class="ltx_cite">[]</cite> are a few examples of this type. An important limitation of these algorithms is coming up with a small set of words that should be presented to the annotators for labeling. Also a human annotator may discard or mislabel a polysemous word, which may affect the performance of a text classifier.</p>
+</div>
+<div id="S2.p3" class="ltx_para">
+<p class="ltx_p">The third type of semi-supervised text classification algorithms is based on active learning. In active learning, particular unlabeled documents or features are selected and queried to an oracle (e.g. human annotator).<cite class="ltx_cite">[]</cite>, <cite class="ltx_cite">[]</cite>, <cite class="ltx_cite">[]</cite> are a few examples of active learning based text classification algorithms. However, these algorithms are sensitive to the sampling strategy used to query documents or features.</p>
+</div>
+<div id="S2.p4" class="ltx_para">
+<p class="ltx_p">In our approach, an annotator does not label documents or words, rather she labels a small set of interpretable topics which are inferred in an unsupervised manner. These topics are very few, when compared to the number of documents. As the most probable words of topics are representative of the dataset, there is no need for the annotator to search for the right set of features for each class. As LDA topics are semantically more meaningful than individual words and can be acquired easily, our approach overcomes limitations of the semi-supervised methods discussed above.</p>
+</div>
+</div>
+<div id="S3" class="ltx_section">
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">3 </span>Background</h2>
+
+<div id="S3.SS1" class="ltx_subsection">
+<h3 class="ltx_title ltx_title_subsection"><span class="ltx_tag ltx_tag_subsection">3.1 </span>LDA</h3>
+
+<div id="S3.SS1.p1" class="ltx_para">
+<p class="ltx_p">LDA is an unsupervised probabilistic generative model for collections of discrete data such as text documents. The generative process of LDA can be described as follows:</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Jun 11 17:32:43 2014 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"/></a></div></div>
+</div>
+</body>
+</html>

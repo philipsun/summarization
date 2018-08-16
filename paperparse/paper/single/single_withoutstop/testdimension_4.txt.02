@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>testdimension_4.txt.pk</title>
+</head>
+<body bgcolor="white">
+<a name="1">[1]</a> <a href="#1" id=1>This paper summarizes previous text summarization approaches in a multi-dimensional classification space, introduces a multi-dimensional methodology for research and development, unveils the basic characteristics and principles of language use and understanding, investigates some fundamental mechanisms of summarization, studies the dimensions and forms of representations, and proposes a multi-dimensional evaluation mechanisms.</a>
+<a name="2">[2]</a> <a href="#2" id=2>1) focusing on still picture (static storyboard), a small collection of salient images extracted from video sources; and, (2) focusing on moving pictures (moving storyboard), a collection of image sequences, and the corresponding audio abstract extracted from the original sequence, which results in a short video clip.</a>
+<a name="3">[3]</a> <a href="#3" id=3>A significant progress of summarization research relies on an innovative summarization of philosophy, psychology, linguistics, cognitive science, neuroscience, physics, computer science, and artificial intelligence from multiple dimensions.</a>
+<a name="4">[4]</a> <a href="#4" id=4>Simple structures such as list, tree and grid have been widely used to summarize representations in daily life, e.g.,, displaying table of contents, family trees, organization structures, and properties on map.</a>
+<a name="5">[5]</a> <a href="#5" id=5>Some summaries are mainly in form of text such as the abstracts of scientific papers, the prefaces of books, the tables of contents, CVs, the headlines of news, webpages with hyperlinks, book reviews, Wikipedia, and the results of Web search.</a>
+<a name="6">[6]</a> <a href="#6" id=6>Applications include Web portals such as Yahoo, YouTube, posters, slides, medical certificate, TV guides, advertisements and conference programs.</a>
+<a name="7">[7]</a> <a href="#7" id=7>In macroscopic, it is important to represent the background of the video and relevant social structure, interests, fashion, rules, regulations, laws and culture of society in a summarization system.</a>
+</body>
+</html>

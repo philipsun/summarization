@@ -1,0 +1,10 @@
+(lp0
+Vb) Select and use pictures to replace the texts in summary c) Select and insert pictures into summary at appropriate places d) Classifying pictures from multiple dimensions including time and location, which help distinguish pictures of different dimensions so that appropriate pictures can be selected to match the text in the summary
+p1
+aVA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p2
+aVMulti-dimensional summarization is a function S(P(d1,  u'\u005cu2026' , dm)) = T(di,  u'\u005cu2026' , dj), which transforms a representation p(d1=p1  u'\u005cu2026' , dm=pm) in the source space of representations P with dimensions d1,  u'\u005cu2026' , and dm into a representation t(di=ti,  u'\u005cu2026' , dj=pj) in the target space of representations T with dimensions di,  u'\u005cu2026' , and dj (m u'\u005cu2265' j u'\u005cu2265' i u'\u005cu2265' 1) such that t contains the core of p at dimensions di,  u'\u005cu2026' , and dj
+p3
+aVThe summarization S of a set of representations P is rendered by its intention Int(P) and extension Ext(B) as follows, where S(Int(P)) is the summarization of the intention of P, S(Int(P) u'\u005cu222a' Ext(P)) is the summarization of the intention and extension of P, p u'\u005cu2192' p u'\u005cu2019'  means that p cites p u'\u005cu2019' , {Cite(pi u'\u005cu2192' p i u'\u005cu2208' [1,  u'\u005cu2026' , m]} denotes the set of cite representations in pi that cites p, and Cite(pi u'\u005cu2192' p) describes p from the view of the author of pi
+p4
+a.

@@ -1,0 +1,1 @@
+ This paper studied temporality features for relation equivalence. With the proposed features, we devised a hybrid approach combining corpus latent and explicit features with complementary strength. We empirically showed the effectiveness of our hybrid approach on relation translation, and it, in turn, improved entity translation.

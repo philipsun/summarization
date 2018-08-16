@@ -1,0 +1,1402 @@
+(lp0
+Ve) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary
+p1
+aVA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p2
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p3
+aVsummary should use the core representations in the original representation
+p4
+aVb) Select and use pictures to replace the texts in summary c) Select and insert pictures into summary at appropriate places d) Classifying pictures from multiple dimensions including time and location, which help distinguish pictures of different dimensions so that appropriate pictures can be selected to match the text in the summary
+p5
+aVThe intention of representation is indicated by core representations and by citation from other representations
+p6
+aVFigure 8 depicts the idea of constructing a semantic link network of pictures and tags as a summary
+p7
+aVOne semantic link network of texts can link to the other semantic link networks of texts to form a larger semantic link network through such relations as citation and coauthor
+p8
+aVThe core representation renders the core idea of a representation
+p9
+aVThe core representations in one representation (e.g.,, text) render its topic
+p10
+aVCitation is a kind of representation by individual selection and language use
+p11
+aVA solution is to establish the semantic links between pictures, discover the communities of the semantic link network of pictures, select one picture to represent one community, and construct a network of the representative pictures
+p12
+aVIf we regard a text as a graph of words or sentences, text summarization can be regarded as a problem of summarizing a semantic link network [Zhuge, 2009], where nodes and edges can be texts, pictures and videos
+p13
+aVThe representation that has a direct link to the core representation is close-core representation
+p14
+aVSemantic link Network
+p15
+aVThe suitable summarizer for summarizing a representation is rendered by the social network of its writers and readers
+p16
+aVCitation is a basic semantic link of constructing a complex text
+p17
+aVDifferent from previous notions of summarization, this definition gives the minimum summary (the summary of the intention) and the maximum summary (the summary of the intention and the extension) of a representation, and it regards citation as the fundamental behavior and mechanism of summarization
+p18
+aVKnowledge Selection Principle
+p19
+aVGenerally, citation is a kind of representation of selection and language use
+p20
+aVThe semantic link networks of texts, pictures, tags and users indicate a kind of social semantics of picture usage and thus provide the ground for selection
+p21
+aVSummarization is involved in representation and understanding
+p22
+aVAs a kind of language representation, summarization should be based on the basic principles of language use
+p23
+aVThe form of summary can be a small semantic link network of texts, videos, audios, pictures and graphs, which provides more semantic indicators than single type of form like silent movie
+p24
+aVA solution is to discover the communities of the semantic link network of pictures, to select one text to represent one community according to the tags of pictures within the community, and to construct a semantic link network of the representative texts
+p25
+aVa) Use pictures to replace the corresponding representations in the original text, to summarize the rest representation, and to organize the summary according to the original structure
+p26
+aVTransform pictures into texts according to the way described in (1), summarize the texts, and then select a picture to represent the summary by matching its tags and the core words of the summary
+p27
+aVIncorporating pictures into a summary enables a summarizer to summarize events
+p28
+aVThis priority arranges relevant representations distributed in the original representation at the places close to the core representations in the summary
+p29
+aVA core representation has a high rank in the citation network
+p30
+aVA summary rendered by both pictures and natural language provides more indicators for readers to build semantic images
+p31
+aVOne form of representation like text usually links to other forms of representation like pictures, and possibly to video, audio and graph, which can be regarded as citation for explanation, complementation or extension
+p32
+aVDefinition (Summarization as citation
+p33
+aVThe person who shares the represented knowledge and the knowledge for representation is suitable for summarization
+p34
+aVDiscovering the semantic link networks that the pictures involved in can help automatic summarization
+p35
+aVAnother way is to establish basic semantic links between pictures, find the best matched text, and make necessary text summarization
+p36
+aVCitations form the intention and extension of a representation
+p37
+aVThe union of the semantic link network and the classification space forms a complex classification space used to represent and organize semantic images
+p38
+aVIt is a natural idea to incorporate pictures into summary since pictures have been widely used to render meaning in many representations
+p39
+aVThe main purpose of summarizing pictures is to generate a small set of pictures from a large set of pictures according to interest
+p40
+aVLanguage representations like tags indicate the usage of the pictures
+p41
+aV3) Generating a small network of pictures from a large set of related pictures
+p42
+aVPictures take the priority in conveying meaning while reading the summary with pictures
+p43
+aVThe summarization of pictures also helps incorporate appropriate pictures into the summary as discussed before
+p44
+aV5) Transforming summarizations into the problem of searching suitable persons or summaries in the social networks of authors, readers, summarizers, representations and links
+p45
+aVSocial Selection Principle
+p46
+aVThe above principle means that even people sharing the represented knowledge may not be the suitable person for summarizing the representation because they may not have the knowledge of representation
+p47
+aVThe satisfied summaries of a representation vary with time
+p48
+aVThe abstract representation reflects the common characteristics of a set of different types of concerned representations
+p49
+aVFor scientific papers, a core representation reflects motivation, problem or solution
+p50
+aV1) Transform representations (including, citation structure) into a multi-dimensional classification space (denoted as A in Figure 7) by classifying and linking representations
+p51
+aVA solution to implement this idea is to make use of existing summaries made by humans and the corresponding pictures in the networks of pictures, tags, summaries, source texts and people who involved in forming and using these things
+p52
+aV3) Semantic link network
+p53
+aVThe original structure of the core representations takes the priority to appear in summary
+p54
+aVEstablishing a unified representation enables a summarization system to uniformly process various representations
+p55
+aVDifferent from linear reading, a semantic link network enables readers to know a general view and the main measures of large representations immediately
+p56
+aVSo, the techniques of text summary can be extended to the construction of semantic link network and image retrieval [Gudivada and Raghavan, 1995]
+p57
+aVOne advantage of incorporating pictures into summary is that pictures provide a different bridge between language units (e.g.,, sentences), especially when connection sentence cannot be found in original text
+p58
+aVIt is a natural idea to select and organize important sentences from the original text to form a summary
+p59
+aVThe general summarization inputs a representation and a cognitive level at certain ontology and then outputs a representation lattice and a recommended representation
+p60
+aVA text can be transformed into a semantic link network of words, sentences and paragraphs
+p61
+aVRelevant representations are arranged at the places closed to the core representation
+p62
+aVA semantic link network of important concepts and relations can help readers quickly know the main cues and measures in representations
+p63
+aVA unified method for summarizing different forms can be developed by transforming texts, videos, pictures and graphs into semantic link networks
+p64
+aV4) Generating a small network of texts according to a large set of pictures
+p65
+aVof pictures can be carried out in a space of four dimensions language, feature, time and location
+p66
+aVFrom this point of view, summarization can be regarded as a transformation of reducing the dimensions of a representation so that the dimensions of representation can be linked to and merge with the dimensions in the mental space
+p67
+aVModern cameras can generate pictures with time and location information, so the summarization
+p68
+aVUsing pictures to summarize text is a new direction of summarizing text
+p69
+aVRepresentations linked to the close-core representations are relevant-to-core representation
+p70
+aVThe basic characteristics and principles of language use and understanding indicate the following dimensions for evaluating a summarization
+p71
+aVA representation can be composed by a set of representations
+p72
+aVText summarization is a special case of summarization
+p73
+aVFigure 5 shows a three-dimensional space for organizing representations through time dimension, author dimension and topic dimension
+p74
+aVThe semantic link network can be regarded as the map of the cyberspace and social space
+p75
+aVFor a set of closely relevant representations, the order of organizing representations in a summary should consider the formation process of the set, which reflects certain semantics of the set
+p76
+aVThe strategy is to make use of sensors and create semantic links between pictures and texts by detecting common projections at physical and social dimensions
+p77
+aVIt usually includes some sub-dimensions feature representation, pattern representation, language representation (including text, voice, and movie), and function representation (different objects such as car, mobile phone, house and road have different functions
+p78
+aVSummarization is requested at the advanced stage of language development when the complex structure of representation emerges
+p79
+aVHumans can make a humanized summarization because they have experience and knowledge out of pictures
+p80
+aVCitation is an individual selection of relevant representations for explaining, evidencing, complementing, commenting, or revising a representation, either explicitly or implicitly, according to individual motivation and knowledge
+p81
+aVHumans are specialized in recognizing pictures as they experience and reflect the physical space and form knowledge in mind
+p82
+aVCitation links between summaries and source representations help analysis and reuse
+p83
+aVThis is because authors have the knowledge for representation and the knowledge to be represented
+p84
+aVCoordinating texts, pictures and videos can render a summary from different channels of sense
+p85
+aVVarious representations constitute a representation space with particular structure and operations
+p86
+aVAs new pictures are continually added to the online systems, a good summarization system should be able to keep up-to-date pictures in summarization
+p87
+aVThe intention of a representation is rendered by commonsense, which is indicated by the basic representations
+p88
+aVSummarization is a kind of operation that inputs one or more representations in this space and then outputs a new representation
+p89
+aVA three-dimensional space for organizing representations possible browse threads through the dimensions of time, topic and author
+p90
+aVCyberspace consists of huge links among texts, videos, audios, pictures and graphs, corresponding to human senses and the structures of cyberspace, physical space and social space
+p91
+aVAnd, the knowledge for summarization is often beyond text
+p92
+aVKnowledge selection is a kind of social selection
+p93
+aVThe knowledge provides the rules of representation and understanding
+p94
+aVThis form of representation can represent a space of any number of dimensions
+p95
+aVThe key problem is to select a better picture from the candidates that have the same projections on the dimensions of time, location and topic, because the semantic links between pictures may be poor
+p96
+aVA core representation takes the priority of emerging when reading
+p97
+aVText summarization research has been extended to multi-medias and social events
+p98
+aVThe summary with pictures is more attractive than the text-only summary
+p99
+aV2) Knowledge for representation (e.g.,, grammars and idioms) and knowledge to be represented e.g.,, scientific knowledge) are separated
+p100
+aV1) Generating a piece of text to represent a set of pictures
+p101
+aVHumans represent what they have seen or felt as semantic images in the mental space through interacting and experiencing in the physical space, and summarizing representations and revising representations during communicating with each other in social space where motivations are generated
+p102
+aVExtension and intention rendered by citation
+p103
+aVThe core representation of a scientific paper is rendered by its keywords, title, abstract and conclusion
+p104
+aVObserving and rethinking the basic characteristics of human language use can inspire research on summarization as language use including listening, speaking, reading, writing, understanding, and thinking
+p105
+aVThis axiom is the basis of representation (including using languages) and summarization (especially, for multi-document summarization
+p106
+aVThere could be different ways to arrange pictures in displays but picture should be selected according to the core sentences and arranged near the core sentences according to the semantic locality principle [Zhuge, 2010]
+p107
+aVIt inputs one form of representation and outputs another form of representation
+p108
+aVHumans experience with representation (at multiple levels), understanding and summarization in lifetime
+p109
+aV3) Representation and its summarization are separated
+p110
+aVA picture reflects a view of the physical space while natural language indicates a semantic image in mind
+p111
+aVSelect the representative tags of these pictures, search relevant texts according to these tags (or select the texts that contain or link to these pictures), and then summarize these texts
+p112
+aVThese concern in-depth understanding of the basic interaction principles in the complex space consisting of cyberspace, social space and physical space
+p113
+aVwords), the picture-based summarization approach has a ground of texts (a network of source texts or summaries) when searching the picture-text repository
+p114
+aVA multi-dimensional classification space of summarization methods
+p115
+aVOntology helps explain representation and establish the links between representations
+p116
+aVThe linear order of traditional text representations is in line with human physiological characteristics and innate sense of time
+p117
+aVRepresentations can be generalized, united, classified and semantically linked to form a lattice of representations at a cognitive level of ontology as shown in Figure 9
+p118
+aVThese implicit citations can be located and transformed into explicit citation by searching these mark words and the references according to author names mentioned in text and then inserting uniform citation marks like scientific papers
+p119
+aVA different opinion is that language representations (e.g.,, words and sentences) indicate semantics rather than semantics itself, and interaction plays an important role in representation and understanding [Zhuge, 2010]
+p120
+aVThe citation network evolves with partially summarizing an area and rendering topics, important roles, relations and development track
+p121
+aVOrganizing representations in time order or reverse time order
+p122
+aVSome summaries incorporate pictures, videos, graphs, or tables into texts
+p123
+aV2) How to organize pictures and texts
+p124
+aVThe establishment of the semantic links relies on the relations between their tags determined by existing texts and links and the categories of pictures
+p125
+aVA semantic link network of video components enables users to query the interested components and navigates in the network according to interest, e.g.,, the semantic link network of video components can help play the main thread of a story development
+p126
+aVA unified representation should reflect the most fundamental characteristics of concerned representations
+p127
+aVA complex semantic link network of different forms enables one form (e.g.,, movies) to link to other forms (e.g.,, novel, script, pictures of actors and actress, posters, comments, related movie, etc
+p128
+aV3) How to identify events in pictures and link them to appropriate texts
+p129
+aVDefinition (General Citation
+p130
+aV5) The representation of knowledge is not unique, and the understanding of representation is not unique
+p131
+aVThe basic behaviors of summarization include emerging, selecting, citing (explicitly or implicitly), and organizing representations according to requirement and motivation
+p132
+aVThe problem of summarizing texts, pictures, and videos can be generalized as one problem
+p133
+aV5) Representation
+p134
+aVDifferent from static text, the citation network dynamically renders the source, the formation and evolution of the area, the backbone, the impact of researchers and institutions, potential knowledge flows through citation links [Zhuge, 2006], and the networks of cooperation between researchers and between institutions with the evolution of the area
+p135
+aVCitation between scientific papers reflects such an order, which should be considered in multi-document summarization
+p136
+aVA semantic link network is a way to organize multimedia
+p137
+aVIt includes the following sub-dimensions a) Core representation reserved in summary b) Coherence
+p138
+aVDiverse individual selections evolve the citation network
+p139
+aVAn explanation is that the summary with pictures gives readers stronger impression and provides more dimensions for rendering meaning, and establishes more links to render meaning
+p140
+aVPrevious evaluation methods focus on summary, which is just one dimension of summarization, and it is not reasonable to pursuit the best summary
+p141
+aVThis is because the represented knowledge was shared and the knowledge for representation is at the same level
+p142
+aVThis enables summarization systems to use more general or specific concepts in summary
+p143
+aVFeatures such as location, front size and color render a core representation
+p144
+aVA unified representation such as XML (Extensible Markup Language) and OWL (Web Ontology Language) helps transformation and unify summarization
+p145
+aVFigure 6 shows a space with four dimensions topic, region, time and author, each of which is defined by a tree structure
+p146
+aVThe union of representations integrates different representations to provide a global view of these representations
+p147
+aVThe extension of representation A consists of all representations that cite A and are cited by A
+p148
+aVA satisfied summary can be reached only through an open social process of interactions and representations
+p149
+aVOther representations are peripheral representations
+p150
+aVSummarization strategies
+p151
+aVDiscovering semantic community is a way to summarize a network of language units [Zhuge, 2009]
+p152
+aV2) Selecting one picture to represent a set of related pictures
+p153
+aVSummarization is involved in individual and social construction processes, so it concerns multiple dimensions
+p154
+aVThe intention of representation p is indicated by (1) the core of p, Core(p), consisting of the core representations of p; and, (2) the representations that cite p
+p155
+aVThe following lemmas can be derived from the knowledge selection principle
+p156
+aVThe common point is regarding text summarization as an automatic process of distilling the most important language representation units from a text to produce an abridged version for a particular task and user [Mani and Maybury, 1999] [Mani, 2001]
+p157
+aVIf representation A cites a set of representations B, and A is cited by a set of representations C, then both B and C constitute the extension of A
+p158
+aVPrevious research on text summarization neglects the innovation of displaying summary as researchers assume that the form of output is the same as the input
+p159
+aVCurrent smart cameras (e.g.,, smart phones) can record the time and physical location of taking photos, which are the projections of pictures on the time dimension and the location dimension
+p160
+aVStructuring summary in an appropriate form is important as summary is mainly for human to read and understand
+p161
+aVA summarizer can understand the input representation better if it knows more about the author, including the relevant articles and social networks
+p162
+aVFigure 4 depicts the extension and the intention rendered by citations
+p163
+aVFrom this point of view, any text has a set of basic citations
+p164
+aVThis is to pursuit a suitable summary rather than the best summary
+p165
+aVThe function  u'\u005cu2018' Classifying & Linking u'\u005cu2019'  classifies representations according to the given dimensions, connects representations by discovering implicit relations, transforming implicit relations into explicit relations, discovering communities, and identifying appropriate representations
+p166
+aVThis helps enhance the memory of the core by focusing and refocusing on the core when building or retrieving the semantic images in the mental space
+p167
+aVA semantic link can be regarded as a citation that semantically connects two things [Zhuge, 2011]
+p168
+aVThe interests of readers determine the selection of summaries
+p169
+aVTime order is in line with human innate sense of time and the process of reading
+p170
+aVHumans have the ability to summarize non-symbol representations, which can be regarded as a different dimension from text
+p171
+aVAny text, video, audio, picture or graph does not exist independently, has explicit or implicit links to other form of representations
+p172
+aVThe summary incorporating pictures can enhance reader u'\u005cu2019' s short-term and long-term memory
+p173
+aVIf representation A cites a set of representations B, then B constitutes an extension of A
+p174
+aVHowever, the form of summary significantly influences the understandability of summary
+p175
+aVA research area emerges and evolves through continual citing a set of papers on the same set of concepts through time
+p176
+aVIn scientific papers, the core representations usually appear in the front and in the end (e.g.,, title, abstract and conclusion) so that readers can be impressed before and after reading the main body
+p177
+aVA representation can be summarized from different dimensions
+p178
+aVHumans have been composing complex representations and making summarization through times, so we have the following axiom
+p179
+aVDimensions evolve with time
+p180
+aVSuitable Summarizer
+p181
+aVThis paper attempts to explore the problem of summarization from multiple dimensions (especially from empiricism, rationalism, evolutionism, and social/individual constructionism) so as to form a general summarization methodology
+p182
+aVExternalization of the internal representation involves in complex mental, physical and social behaviors
+p183
+aVMany applications have incorporated pictures into summaries, e.g.,, transforming a paper into slides or a poster, transforming a novel into a carton book, and creating a webpage according to a set of texts and pictures
+p184
+aVDictionaries explain words in texts, so they can be regarded as the basic implicit citations to all texts
+p185
+aVPictures and texts may be viewed again but pictures still take priority during reviewing
+p186
+aVDefinition (Multi-dimensional summarization
+p187
+aVA set of representations can be classified by different methods
+p188
+aVExploring citation is a way to explore the nature of summarization
+p189
+aVA summary should match the interests of readers
+p190
+aVOntology helps establish a general representation from the nature of the world, knowledge and knowing
+p191
+aVThe closed systems designed by particular persons are unable to make satisfied summarization because only the persons sharing knowledge with the writer can make satisfied summarization
+p192
+aVExisting summaries can be put into the space and linked to the tag set
+p193
+aVCite representation in scientific papers is rendered by the paragraph or the sentence that includes the cite mark commonly used in a community
+p194
+aVA good summary should be able to quickly attract attention, represent the core idea, and effectively convey the meaning according to interests
+p195
+aVAutomatic summarization of pictures can be extended to include the solutions to the following issues
+p196
+aVThe physical space including the nature and versatile artificial physical space like museum can be represented as a space of multiple dimensions such as time, region, and type (different types of museums may include different samples
+p197
+aV1) From text to text
+p198
+aVSemantic link network can be regarded as the extension of the semantic net (Quillian, 1966) and correlational nets (Ceccato, 1961), which represents the relations between concepts
+p199
+aVThis is because knowledge, interest and understanding are specific to people and change with the evolution of knowledge and society
+p200
+aV3) What are the fundamental principles and rules of language use and understanding behind summarization
+p201
+aVThe generated summary is not unique as the tag sets of different pictures may be overlapped
+p202
+aVThe definition of summarization based on citation given in section 4 gives the range of T, and (di,  u'\u005cu2026' , dj) reflects the basic cognitive level of reader
+p203
+aVA video can also be transformed into a semantic link network of video clips
+p204
+aV1) Authors who commonly cited a representation are the candidates of suitable summarizers
+p205
+aVAutomatic summarization is a natural idea to solve this problem
+p206
+aVThis function is to emerge pictures or video clips relevant to the important representations in viewing scope while displaying
+p207
+aVImportant sentences can be extracted out according to the statistical analysis and experience on the input text while making abstraction needs knowledge on and beyond the text
+p208
+aVRepresentation lattice at certain cognitive level
+p209
+aVA cognitive level determines a representation lattice
+p210
+aVFor extractive text summarization, to keep consistency between sentences can enhance readability
+p211
+aVThe general process of summarization on demand is shown in Figure 7
+p212
+aVThis is because the establishment of rich social relations indicates common individual characteristics and social characteristics
+p213
+aVSummaries of different scales can be obtained through zoom-in-and-zoom-out on the citation network
+p214
+aVImplicit citation is used in free texts and literature works
+p215
+aVMore types of links render more common knowledge and experience [Zhuge, 2009]
+p216
+aVThe basic characteristics of language use and understanding (1) Human minds cannot directly access each other
+p217
+aV1) extractive summarization (extracting important sentences from the given text) [Edmundson, 1969] [Mihalcea, 2005] [Shen, et al., 2007], and (2) synthesized summarization (summarization is a reformulated, compressed, abstracted, or synthesized text) [McKeown, et al., 1999] [Knight, 2002]
+p218
+aVFor summarization, writing and reading involve in both individual thinking and social experience and interaction
+p219
+aVA semantics-based approach to summarizing videos is to construct a semantic structure on videos by introducing semantic links into videos
+p220
+aVThe process of automatic summarization is closed, does not interact with other processes in cyberspace or social space
+p221
+aVThe summarization system is responsible for classifying, linking and reorganizing representations
+p222
+aVThe following are some dimensions for organizing a summary
+p223
+aVText understanding is modeled by proposition network
+p224
+aVThe inexact principle and the relativity principle indicate the following principles
+p225
+aVFigure
+p226
+aVThe problem of designing a suitable summarizer can be transformed into the problem of searching a suitable summarizer in cyberspace
+p227
+aVDifferent summaries may represent different characteristics of the summarizer
+p228
+aVSeparation Principle
+p229
+aVSummarization process excludes humans
+p230
+aVIn macroscopic, it is important to represent the background of the video and relevant social structure, interests, fashion, rules, regulations, laws and culture of society in a summarization system
+p231
+aVThe following are some rules to make a suitable summary
+p232
+aVOpenness Principle
+p233
+aVCurrent online movies contain subtitles, which provide a new condition for making summarization of videos through natural language processing
+p234
+aVSummarizing various citations can reach a notion of general citation
+p235
+aVThere are different definitions of text summarization
+p236
+aVIt enables readers to trace the origin and access relevant knowledge
+p237
+aVAn interactive visual text analysis tool can help readers understand the summary [Liu et al., 2012]
+p238
+aV1) Making use of the summaries of the persons who have rich social relations with the original authors
+p239
+aVThis also implies that a summarizer should be able to interact with readers so that it can select the appropriate representations (e.g.,, sentences) and use the representations that the reader is familiar with
+p240
+aVThe above fundamental characteristics and principles indicate the following strategies for summarization
+p241
+aVCitation and summarization are often involved in a reciprocity process [Novwak and Sigmund, 2005]
+p242
+aVNatural Language Analysis
+p243
+aVModerate Principle
+p244
+aVResearch methods can be summarized by a multi-dimensional classification space [Zhuge, 2008, 2012], as shown in Figure 1
+p245
+aVTherefore, it is necessary to understand citation when studying summarization
+p246
+aVDifferent persons can make different summaries for the same text, and one person can generate different summaries for the same text at different times
+p247
+aVDifferent representations of the same thing can be linked to the same semantic image for understanding and thinking [Zhuge, 2010, 2011, 2012]
+p248
+aVsummary should use more general concepts in the commonsense category hierarchy
+p249
+aVSummarization enables people (from novice to experts) to quickly know the general and important information
+p250
+aVThe openness principle implies that establishing static criteria for evaluating summarization is
+p251
+aVScientists summarize their ideas as abstracts placed before the main texts in papers so that readers can quickly know the main idea before reading the main text
+p252
+aVThe above separation principles lead to the natural obstacle of summarization
+p253
+aV4) What is the appropriate research methodology for studying summarization and developing summarization systems
+p254
+aVClassification and clustering are the basic components of the multi-document summarization methods
+p255
+aVInformation loses through transformation from the internal representation to the form of display
+p256
+aVThe following are principles of selecting a suitable summarizer
+p257
+aVThe personal spaces reflect personal reading experience, interests and knowledge based on the texts that have been read
+p258
+aVA summary is suitable if its cognitive level is the same as the reader u'\u005cu2019' s cognitive level
+p259
+aVRelativity Principle
+p260
+aVMulti-dimensional summarization is a function S(P(d1,  u'\u005cu2026' , dm)) = T(di,  u'\u005cu2026' , dj), which transforms a representation p(d1=p1  u'\u005cu2026' , dm=pm) in the source space of representations P with dimensions d1,  u'\u005cu2026' , and dm into a representation t(di=ti,  u'\u005cu2026' , dj=pj) in the target space of representations T with dimensions di,  u'\u005cu2026' , and dj (m u'\u005cu2265' j u'\u005cu2265' i u'\u005cu2265' 1) such that t contains the core of p at dimensions di,  u'\u005cu2026' , and dj
+p261
+aVResearch can lead to a new form of summary that can increase readability and understandability
+p262
+aV4) The use of language relies on knowledge
+p263
+aVIt enables readers to know the topic movement of a particular author or a group of authors through time
+p264
+aVTo realize more meaningful video summarization, it is important to represent body language, spoken language, emotion, habit and psychological activities in microscopic
+p265
+aVThe moderate principle indicates that the best summary does not exist
+p266
+aVThe relations between texts, between pictures, and between videos can be mutually enforced, explained and rendered
+p267
+aVThe faceted navigation approach is not traditional text summarization, but it is a special summarization because it can extract different facets in large text(s) to enable users to read only the interested facet [Xu and Zhuge, 2012]
+p268
+aVIt is feasible to transform a citation network into a text by using some language patterns (for example,  u'\u005cu201c' the idea of A was extended by B u'\u005cu201d' ,  u'\u005cu201c' the idea of A was used by B u'\u005cu201d' , and  u'\u005cu201c' the idea of A inspired B u'\u005cu201d' ) to represent different citations, main roles, relations, and development track
+p269
+aVThe higher abstraction level of the structure presents more general summary of the video
+p270
+aVVarious devices and approaches have been invented and developed to represent and process different forms such as natural languages, pictures, videos and graphs
+p271
+aVA solution is to transform this issue into an information retrieval and text summarization issue
+p272
+aVThis ability can be enhanced through language learning, using and understanding, for example, journalists are specialized in summarizing events as news in the form that can attract readers
+p273
+aVFor example, a publication space can include the following dimensions subject, time, author, and publisher
+p274
+aVOn one hand, a very simple and short representation such as a short paragraph of text and a picture is unnecessary for summarization as they can be quickly understood
+p275
+aVFurther, we can consider organize representations with a multi-dimensional classification space
+p276
+aVFrom the evolution construction and social construction point of views [Zhuge, 2012], tags might have been used in some texts by people
+p277
+aVFurther, pictures can be extended to the snapshots of videos
+p278
+aVAutomatic text summarization systems generally concern the following three issues
+p279
+aV2) Whether the best summary of a given representation exists or not
+p280
+aVThese subtitles provide the basis for generating a piece of text as the summary of movies
+p281
+aVThe network evolved with social interactions determines different summaries at different times
+p282
+aVInterface innovation enables users to easily understand a summary
+p283
+aV3) Knowledge in minds evolves and self-organizes through language use
+p284
+aVThe summarization strategies support the processing of representations under uncertain conditions
+p285
+aVThis indicates the possibility of creating a unified method for processing different objects such as texts, pictures, videos and graphs
+p286
+aVIn contrast, readers need to scan the whole text to know the text-only summary
+p287
+aVNew interface devices like 3D monitor will significantly influence the representation of summary
+p288
+aVIt is important to ensure that the generated network of symbols and images should be small to facilitate understanding
+p289
+aVAccording to the efficiency principle and regional principle, the radius of the
+p290
+aVIn real application, a summarization system should enable readers to adjust the radius according to requirement
+p291
+aVNew generation search engines have integrated pictures, the summaries of texts and hyperlinks in their formatted search results, which provides richer content for users than the link list provided by old search engines
+p292
+aVInput should also be evaluated because some representations are unnecessary for summarization
+p293
+aV1) How to select appropriate pictures
+p294
+aVIt reflects the author u'\u005cu2019' s thinking, comment, innovation, and summarization
+p295
+aVThe suitable person should have similar experience with the author (including education, work, etc.) through which knowledge is learned and shared
+p296
+aVThe scale of summary can be regarded as a dimension
+p297
+aV2) If the cognitive level of the original representation is higher than the reader u'\u005cu2019' s cognitive level, the
+p298
+aVImage retrieval techniques can help find candidate pictures [Gudivada and Raghavan, 1995]
+p299
+aVDynamicity Principle
+p300
+aVThis requests a summarizer to collect and analyze readers u'\u005cu2019'  interests according to their reading behaviors and attitudes to summaries
+p301
+aVThe abstractive summarizers can use different (probably more general) words to represent the main meaning of text
+p302
+aVExplicit citation is often used in scientific papers and books, in form of  u'\u005cu2018' [reference number] u'\u005cu2019'  or  u'\u005cu2018' (author, year) u'\u005cu2019'
+p303
+aVHumans experience in a multi-dimensional space but have to use a two-dimensional media such as paper and screen to externalize representation
+p304
+aVHowever, machines need to rely on human instruction to process pictures
+p305
+aV3) Core
+p306
+aVA text can be understood from different aspects because of the nature of language use and understanding
+p307
+aV1) If the cognitive level of the original representation is the same as the reader u'\u005cu2019' s cognitive level, the
+p308
+aVThe reason is that a reader can easily and quickly understand the summary if the dimension of the target space is the same as the dimension of the reader u'\u005cu2019' s personal space, which represents the reader u'\u005cu2019' s mind (cognitive architecture
+p309
+aVSo, summarization in these areas has the reasons of summarization and the correctness guarantee of using summaries
+p310
+aVA summarization can be satisfied only when it matches the personal space of the reader
+p311
+aVIt also enables readers to know the role of author such as the source and the novice during the development of a topic at certain time
+p312
+aVBut, automatic summarization exclude interaction inevitably leads to an awkward summary
+p313
+aVThe reason is that authors are the best person to organize his representation
+p314
+aVGraphs are the generalization of various real networks in cyberspace (e.g.,, data structures), physical space (e.g.,, supply chains, material flow networks) and social space (e.g.,, social networks of things
+p315
+aVA display form of multi-dimensional space
+p316
+aVThe size of summary depends on user requirement and cognitive level
+p317
+aVsummary should use more specific concepts in the commonsense category hierarchy
+p318
+aVThis leads to the separation of author u'\u005cu2019' s meaning, summarizer u'\u005cu2019' s understanding, and readers u'\u005cu2019'  understanding
+p319
+aV3) If the cognitive level of the original representation is lower than the reader u'\u005cu2019' s cognitive level, the
+p320
+aVnetwork should be small
+p321
+aVDifferent types of events may have different distribution at the time dimension
+p322
+aVThe dimensions of P vary with different sources and the dimensions of T vary with the readers of the summary
+p323
+aVA solution is to transform this issue into a text summarization issue
+p324
+aVMethods based on natural language analysis were used in summarization [Barzilay, et al., 1997] [Silber and McCoy, 2002] [Erkan, 2004]
+p325
+aV1) single text [Luhn et al., 1958], (2) multiple texts [McKeown, 1995] [Radev, et al., 1998, 2002] [Nanba et al., 1999] [Agarwal et al., 2011], and (3) hybrid, which inputs one text and retrieves multiple relevant texts and then summarizes them so that readers can know more relevant contents
+p326
+aVThe cyberspace, physical space and social space have structures, and the brains have evolved with ways to recognize and represent these structures and the structure of themselves
+p327
+aVA friend of author may not be the suitable summarizer
+p328
+aVThe evaluation of summarization follows some principles
+p329
+aVThe reading order of the two summaries is different
+p330
+aV4) Natural language analysis
+p331
+aV4) The evolution of topics in the area through the time dimension
+p332
+aVThe photos are probably relevant to the events happened at the same time and location
+p333
+aVIn natural language, commonsense is indicated by distinctive words and idioms
+p334
+aVUsers can adapt the dimensions to generate new summaries and to add summaries to the system for composition and comparison
+p335
+aVThis new bridge can enhance the readability of a summary
+p336
+aV1) Time
+p337
+aV1) Time
+p338
+aVAutomatic video summarization is to enable machines to generate a clip of a long video or a set of long videos
+p339
+aVObjects can be located in a space of multiple dimensions such as time, topic, and publication type (book, journal, or conference) for efficient retrieval and management
+p340
+aVThe summarization S of a set of representations P is rendered by its intention Int(P) and extension Ext(B) as follows, where S(Int(P)) is the summarization of the intention of P, S(Int(P) u'\u005cu222a' Ext(P)) is the summarization of the intention and extension of P, p u'\u005cu2192' p u'\u005cu2019'  means that p cites p u'\u005cu2019' , {Cite(pi u'\u005cu2192' p i u'\u005cu2208' [1,  u'\u005cu2026' , m]} denotes the set of cite representations in pi that cites p, and Cite(pi u'\u005cu2192' p) describes p from the view of the author of pi
+p341
+aV5) Output (Summary
+p342
+aVA summarization system should be improvable during use, and be able to adapt to readers u'\u005cu2019'  updates and adapt to new representations (especially on the same topic c) Interactivity
+p343
+aVThe Web 2.0 provides the platform for people to upload and tag pictures on the Web
+p344
+aVSummarization is a special transformation that operates dimension reduction for easier understanding
+p345
+aVThere have been more and more real requirements of summarizing pictures with the explosion of digital pictures online in recently years due to the wide deployment of cameras and popularity of smart phones
+p346
+aVA summary can be in form of a hypertext, where some texts are summarized as a hyperlink, and some texts containing hyperlinks are summarized as a hyperlink at the higher level
+p347
+aVOperations on representations enrich the structure of the lattice
+p348
+aVis the basic element of a scientific paper
+p349
+aVSummarization on demand
+p350
+aVAn explanation is that humans have commonsense on representation  u'\u005cu2018' a novel tells a story u'\u005cu2019'  and representation  u'\u005cu2018' story u'\u005cu2019'
+p351
+aVSome summaries are mainly in form of text such as the abstracts of scientific papers, the prefaces of books, the tables of contents, CVs, the headlines of news, webpages with hyperlinks, book reviews, Wikipedia, and the results of Web search
+p352
+aVTo facilitate communication, humans indicate the mental semantic images in the language commonly used in society, but it is hard to communicate in the form of what they have seen or felt
+p353
+aVThis is because knowledge of different people evolves personally
+p354
+aVIn a complex multi-dimensional classification space, a dimension can be a hierarchy of classifications and one point can be semantically linked to another [Zhuge, 2011, 2012]
+p355
+aVHowever, authors have limited time and may be influenced by individual characteristics (e.g.,, health and mood, and worldview) and social characteristics (e.g.,, culture, economy and influence
+p356
+aV2) Authors are the best persons to summarize their own representations
+p357
+aVEnabling the form to accurately convey the core meaning of what is to be represented is the key
+p358
+aVA summary can be only moderately satisfied
+p359
+aVDuring the development of a research area, different survey papers may appear at different development stages or on different facets [Afantenos, et al., 2005], the later survey paper can benefit from the summaries of previous survey papers
+p360
+aVclassified into points in a complex space with the following dimensions
+p361
+aVSometimes, readers only need one aspect of a representation
+p362
+aVKnowledge representation approaches such as the production rule [Davis, et al, 1977], the frame [Minsky, 1975] and the semantic net [Quillian, 1966] are symbol systems that can carry out reasoning for solving problems
+p363
+aVWhy can human use words beyond text
+p364
+aV1) What is summarization
+p365
+aVSummarization can help humans understand large-scale graphs
+p366
+aVIt is important to ensure the understandability and expressiveness of the integrated representation
+p367
+aVDefine personal space Adapt personal space Contribute summaries
+p368
+aVTo reflect not only reading characteristics but also understanding characteristics, it is a reasonable method to combine the linear organization with the order of generalization and specialization
+p369
+aVMany areas such as information retrieval and classification have significantly influenced research on summarization
+p370
+aV1) browse all the pictures  u'\u005cu2192'  read the text beside each picture, and (2) view a picture  u'\u005cu2192'  read beside text  u'\u005cu2192'  u'\u005cu2026'  u'\u005cu2192'  view last picture  u'\u005cu2192'  read beside text
+p371
+aVThis form of representation looks similar to the wind-rose plot, which can efficiently convey the meaning of how wind speed and direction are typically distributed at a location
+p372
+aVAbstraction and analogy are the important operations of generating representations [Zhuge, 2010, 2011, 2012]
+p373
+aVSo, the above statement is suitable for text
+p374
+aVThe principles underlying the structure of language are biologically determined by human minds and genetically transmitted
+p375
+aVunnecessary, and that a closed system is incapable for reaching a satisfied summary
+p376
+aVAutomatic video summarization can help humans quickly know the key content in big video volumes
+p377
+aVInventing a new interface that can easily convey representations through multiple channels is a way to improve human understanding
+p378
+aVTransformation between different data structures can help summarization [Zhuge, 2008]
+p379
+aV4) Enabling different summaries to cooperate and compete with each other for impact at multiple dimensions (e.g.,, acceptance for reading and adoption for generating new summaries
+p380
+aVSummaries should be able to evolve with various interactions in the complex space like the evolution of the contents in Wikipedia
+p381
+aVScan and extract important language units (e.g.,, sentences
+p382
+aVIt is hard to enable machines to make a humanized summarization
+p383
+aVThe key is how to extract appropriate nodes and links from representations
+p384
+aVFigure 2
+p385
+aVSummary is generated by identifying themes in text and selecting appropriate sentences for composition [Barzilay, 1999] [Barzilay & KcKeown, 2005]
+p386
+aVSatisfactory of summary is relative
+p387
+aVHyperlink of the Web is a kind of explicit citation that freely complements, explains, or extends the content of the current Web pages
+p388
+aVAs shown in Figure 3, a new paper A (denoting the title, author, abstract, etc.) becomes an often-cited paper and then becomes a source paper when the area is gradually formed
+p389
+aVA summary should match the reader u'\u005cu2019' s cognitive level concepts at the reader u'\u005cu2019' s cognitive level should be selected
+p390
+aVDimensionality on Summarization
+p391
+aVDifferent from image retrieval (e.g.,, search images according to key-Source Text
+p392
+aVFigure 3
+p393
+aVAuthors can have their own styles (patterns) in organizing representations
+p394
+aVSome social events can be detected and summarized with wide use of online social networks [Zubiaga, 2012]
+p395
+aVHowever, existing approaches are empirical and focus on special types of text
+p396
+aVIt includes the number of people who have used the summary and their attitudes
+p397
+aVRelevant research concerns commonsense, knowledge level, and abstraction [Newell, 1982] [Minsky, 2006] [Tenenbaum, 2011]
+p398
+aV3) Making summarization through human-machine interaction, which can make full use of the advantages of both human and machines
+p399
+aV2) Time threads within a topic
+p400
+aVSummarization carries out in an interaction environment where people read, write, cite and communicate with personal spaces
+p401
+aVDifferent from scientific papers, webpages can be changed, and links can be also changed, so the hyperlink network of webpages evolve notably
+p402
+aVIt is unclear so far how human mind organize knowledge
+p403
+aVThe space involves in the following high-level dimensions [Zhuge, 2012]
+p404
+aVVideo summarization concerns the simplification of motion
+p405
+aVIn psychology, representation is a kind of hypothetical internal cognitive symbol that represents external reality
+p406
+aVLet u'\u005cu2019' s recall how human process representations generated through different channels
+p407
+aVA survey paper summarizes an area through citing many papers in the area, and it is often cited as it helps later researchers to quickly know this area
+p408
+aVResearch should be useful and benefit human life and social development
+p409
+aVThe radius can be defined as the maximum length of link chain from the center (determined by core nodes) to any node
+p410
+aVAbstract representation is particularly useful for developing theories
+p411
+aVA good summarizer should know its potential readers
+p412
+aVCognitive psychologists argue that people usually remember meaning rather than exact representation and that meaning represents through the perceptual and motor systems for interacting with the world
+p413
+aVThere are two fundamental classes of video summarization
+p414
+aVA multi-dimensional space can be represented in different forms [Zhuge, 2008]
+p415
+aVResearch on automatic text summarization started half century ago [Luhn et al., 1958] [Baxendale, 1958]
+p416
+aVFigure 4
+p417
+aV3) Topic relevancy threads within a period at the time dimension
+p418
+aVThe category hierarchy of events
+p419
+aVThe following steps implement this a) Give the expected size of summary and interest b) Rank the paragraphs of the text according to the interest
+p420
+aVA semantic image can be an image-like form when representing daily life or a symbol-like form when representing abstract concepts
+p421
+aVThe main focus of research is on text itself
+p422
+aVThen, the relations like  u'\u005cu201c' back of u'\u005cu201d'  relying on the core words can be identified
+p423
+aVPrevious research methods have the following characteristics
+p424
+aVFigure 5
+p425
+aVSummarizing videos is a research topic in multimedia area [DeMenthon, et al., 1998] [Ekin, et al., 2004]
+p426
+aVIt is particularly useful in making slides or posters for scientific research according to papers, and summarizing historical and literature works
+p427
+aVAn appropriate form concerns the innovative cyber display based on human mental structure, psychological structure and innovative display
+p428
+aVHomepage like Yahoo is the summarization of its web pages
+p429
+aVReaders u'\u005cu2019'  comments and previous reading behaviors (e.g.,, the often clicked hyperlinks) reflect interests
+p430
+aVVarious methods can be organized in a multi-dimensional methodological space as shown in Figure 2
+p431
+aVIntegrating individuals of diverse characteristics can cooperate with each other in making new summaries
+p432
+aVAdding a ground with more indicators to a summary is a way to help representation and understanding, e.g.,,  u'\u005cu2018' A love story in Qing Dynasty of China u'\u005cu2019'  includes a time indicator  u'\u005cu2018' Qing Dynasty u'\u005cu2019'  and a location indicator  u'\u005cu2018' China u'\u005cu2019'
+p433
+aVExisting approaches such as feature-based approaches and machine learning approaches can be used to classify pictures
+p434
+aVA good article renders just one core
+p435
+aV1) Selection
+p436
+aVTransforming implicit citations needs to compare common clauses in works published in different times
+p437
+aVFor example, it is hard to automatically find the abstraction relationship between pictures
+p438
+aVSo, the pursuit of the best summary is insignificant
+p439
+aVSome criteria such as coverage (the summary should represent the original one) and diversity (the elements of the summary should be distinct from each other) were proposed [Shroff, 2010]
+p440
+aVBehavior recognition is the basic components of understanding videos
+p441
+aVFor example, rationalism believes that the meaning of text is determined by its structure and derivation rules
+p442
+aVHowever over abstract representation may not be useful in real applications
+p443
+aVCognitive psychologists have been exploring mental concepts through rational definition, prototype, exemplar and knowledge studies
+p444
+aVThe latent semantic analysis technique was used to identify semantically important sentences
+p445
+aVThere are different viewpoints on text understanding
+p446
+aV1) focusing on still picture (static storyboard), a small collection of salient images extracted from video sources; and, (2) focusing on moving pictures (moving storyboard), a collection of image sequences, and the corresponding audio abstract extracted from the original sequence, which results in a short video clip
+p447
+aVThe basic cognitive level can be established for the hierarchy of universal concepts
+p448
+aVThey try to find the basic cognitive level in the concept hierarchy shared by people [Murphy, 2002]
+p449
+aVThe information modeling provides the appropriate models for processing and organizing representations
+p450
+aVFigure 6
+p451
+aVFor example, people can write summaries after attending conferences, watching movies, visiting museums and traveling in the physical space
+p452
+aVAn area emerges when new papers often cite some old papers
+p453
+aVThese summaries that people often see are made by humans
+p454
+aVThe core words such as  u'\u005cu201c' CIKM2012 u'\u005cu201d' ,  u'\u005cu201c' hotel u'\u005cu201d' ,  u'\u005cu201c' golf u'\u005cu201d'  and  u'\u005cu201c' garden u'\u005cu201d'  can be identified by comparing the source text and tags
+p455
+aVThese characteristics lead to the following principles
+p456
+aVAn advanced faceted navigator provides multi-facet summarization of the contents in a website for users [Xu and Zhuge, 2013]
+p457
+aVFigure 7
+p458
+aVThe reasonable method is to study the multiple dimensions of the summarization environment and to consider the reasonable result
+p459
+aVThe advantage is that the content is the same as the original text and readers can read the concise top-level content first and then read the details by clicking the link if they are interested in
+p460
+aVIn language study, students are often requested to make summarizations after reading articles
+p461
+aVRanking reviews to encourage contribution and competition among reviews reflect social value in a summarization environment
+p462
+aVDiscovering unity in diversity is a scientific research method, which has generated many important scientific principles and theories, for example, Maxwell successfully unified electricity and magnetism
+p463
+aVNetwork analysis techniques such as degree distribution and community discovery can be used to find more important part and the hierarchy of a graph
+p464
+aVIt regards reasoning as the main source of knowledge
+p465
+aVSummarizing a video requires machines to identify the essential characteristics of the video
+p466
+aVTransformation between representations is a way to realize unification
+p467
+aVIn addition, voice and music can render the link between videos
+p468
+aVPeople have the following common experience
+p469
+aVEvery point in the space coordinates all methods specified at every dimensions
+p470
+aVSimple structures such as list, tree and grid have been widely used to summarize representations in daily life, e.g.,, displaying table of contents, family trees, organization structures, and properties on map
+p471
+aVIt is ideal and efficient but summarization systems do not have minds and experiences as human
+p472
+aVThe patterns of events, conversations, and behaviors should be characterized to get semantically meaningful summaries of complicated video contents [Tewfik, 1999]
+p473
+aV5) Whether a general summarization exists or not
+p474
+aVThis is a phenomenon of semantic locality [Zhuge, 2010]
+p475
+aVFigure 9
+p476
+aVFigure 8
+p477
+aVA summary that satisfies one person may not satisfy the other
+p478
+aVFor example, two paragraphs sharing some words are linked by these common words
+p479
+aVTherefore, a representation p can be formalized as a structure of representations p=p (p p  u'\u005cu222a'   u'\u005cu2026'   u'\u005cu222a'  p
+p480
+aVAutomatic link generation was studied in hypertext area [Salton, et al, 1997]
+p481
+aVIt stands for the basic cognitive level of all the authors in the field
+p482
+aVIt believes that meaning and understanding develop with individual and society
+p483
+aVIt is critical for developing summarization research through thinking the following questions
+p484
+aVRegarding each method as a dimension forms a multi-dimensional classification space, where every point represents a class that has a projection at every dimension
+p485
+aV3D printer extends display from cyberspace to the physical space
+p486
+aVThe extractive summarizers select appropriate phrases or sentences from the text and then compose them
+p487
+aV3) Individual and social constructionism
+p488
+aVEfficiently finding necessary contents in the ocean of texts is very important because life is short while new texts are continually generated
+p489
+aVIn this way, the existing summaries can be reused when making new summarizations
+p490
+aVHumans live in a multi-dimensional space
+p491
+aVFor example, the picture with tags a and b (e.g.,, hotel and garden u'\u005cuff0c'  indicating  u'\u005cu201c' a picture of hotel with nice garden u'\u005cu201d' ) can bridge the sentence containing a (e.g.,, garden, indicating  u'\u005cu201c' It is a beautiful garden u'\u005cu201d' ), and the sentence containing b (e.g.,, hotel, indicating  u'\u005cu201c' The hotel is near the sea u'\u005cu201d'
+p492
+aVFor the videos with scripts, words will play more important role in representing videos
+p493
+aVAn event happens at a physical location, which can be captured by GPS, IP, or communication network
+p494
+aV4) Summarizer a) Openness
+p495
+aVSocial constructivism believes that any text is involved in society (e.g.,, in power relationships) and history [M
+p496
+aVHumans are able to make operations to summarize a movie according to their understandings and requirements, but are limited in ability to view and summarize huge volumes of videos generated everyday
+p497
+aVThe classification space can be normalized to ensure the effectiveness of operations on the space just like the normal forms of relational database
+p498
+aVA dimension like topic can organize coordinates as a tree representing multi-level generalization and specialization
+p499
+aVThe ability to understand, think through and use dimensions is an important part of human intelligence
+p500
+aVThe following three kinds of separations are involved in language
+p501
+aVHowever, unifying different theories is hard because it needs to uncover the common nature behind existing theories, and different theories may represent different aspects of a domain and use different representation systems that are difficult to be unified
+p502
+aVLinks between videos are enriched through the mediation of words
+p503
+aVEvents can be
+p504
+aVLinks between words in subtitles and video clips can be established
+p505
+aVFurther, the two types of summaries have different memory effects
+p506
+aVIt is the right way to pursue a satisfied summarization through a human-machine symbiotic system [Licklider, 1960]
+p507
+aVSentences in output should be coherent to facilitate readers u'\u005cu2019'  understanding [Brandow et al, 1995] [Regina Barzilay and Mirella Lapata, 2008]
+p508
+aVThe back of the hotel is a beautiful garden, which closes to the sea
+p509
+aVOnline picture-sharing systems like Flicker provide rich picture resources for implementing this idea
+p510
+aVSome relations may exist between dimensions
+p511
+aVSimilarly, the association relation between words was used for multi-document summarization [O.Gross, et al, 2014]
+p512
+aVA graph with meaningful nodes and links can clearly summarize the main concepts and cues within text(s) [Zhuge, 2009, 2011]
+p513
+aVMathematical tools such as logic, algebra and graph can help develop abstract representations
+p514
+aVThe difference is that the win-rose plot specifies the uniform value speed, while a point in the multi-dimensional space can have different types of values (projections) at different dimensions
+p515
+aVWriters, readers and languages evolve and influence each other
+p516
+aVThe following are two kinds of reading order
+p517
+aV1) Structure (grammar) and semantics are separated
+p518
+aVSurvey papers are summarizations of previous works on particular topics
+p519
+aV2) Adapting to readers u'\u005cu2019'  interests
+p520
+aVThe cognitive level for a particular research field can be reflected by all of its papers
+p521
+aVUsually, T has a small number of dimensions
+p522
+aVThe development of cyberspace accelerates the expansion of texts since people can more and more easily and freely publish writings
+p523
+aVEvery point in the space has one projection at every dimension (a node in the tree
+p524
+aVIt is useful in summarizing a scientific topic [V.Qazvinian and D.R.Radev, 2008] [Chen and Zhuge, 2013]
+p525
+aVSummarization patterns were discussed [Gong and Liu, 2001]
+p526
+aVThe Unified Modeling Language (UML) uniformly represented business processes and behaviors, software architectures, processes and behaviors, and data structures
+p527
+aVIt is necessary to review previous efforts and explore the foundation of summarization
+p528
+aVSome implicit citations just reuse others u'\u005cu2019'  sentences or clauses without any mark word
+p529
+aVA transformational development of the fundamental infrastructure of cyberspace (e.g.,, a new generation computer) and smarter devices will influence the generation of new representations
+p530
+aVAn interactive graph summarization approach was proposed [Zhang, 2010]
+p531
+aVA complex methodology is regulated by a subspace or a point, which has a projection at every dimension of the methodology space
+p532
+aVCoordinating different dimensions is a way to generate new methods
+p533
+aVSo far, most text summarizers are extractive
+p534
+aVSummarizing data structures can provide more general data services
+p535
+aVThe multi-dimensional organization can provide multiple threads for readers to browse as indicated by the two-way arrows
+p536
+aVWith the development of sciences, researchers are limited in time and energy to read more and more publications
+p537
+aVAs a kind of union, data integration enables users to get a global view of data generated from different sources [Friedman, et al, 1999; Lenzerini, 2002; Halevy et al, 2006]
+p538
+aVA multi-dimensional methodological space
+p539
+aVA video sequence can be represented as trajectory curves in a high-dimensional feature space, which can be decomposed into curve segments of low dimension for simplification [DeMenthon, et al., 1998]
+p540
+aVHumans have the ability to represent and summarize what they have read
+p541
+aVDifferent classes of people play different roles in society and thus are likely invloved in different events
+p542
+aVThis indicates that human mind uniformly processes various things at certain cognitive level
+p543
+aVA distinguished characteristic is that humans generate behaviors (including mental behaviors) different from the input
+p544
+aV2) Author
+p545
+aV2) Author
+p546
+aVSo building the networks is the key to solve the problem
+p547
+aVMachine learning methods apply statistical techniques to extraction, including Bayes Methods [Kupiec et al
+p548
+aVFurther, it should interact with other people (including authors) to get more concepts and rules, and with the systems to get more information
+p549
+aVDifferent structures are suitable for different applications
+p550
+aVThe Resource Space Model supports multi-dimensional generalization and specialization [Zhuge, 2008, 2012]
+p551
+aVHotel Golf Rainbow
+p552
+aVEach dimension consists of some specific methods
+p553
+aVIn front of the hotel there is a beautiful golf course, surrounded by trees
+p554
+aVSome approaches focus on some contents about who, what, where, and when in the framework of the video contents to produce a concept-level summary [Chen, 2009]
+p555
+aVBayes Decision Tree Hidden Markov Neural network
+p556
+aVAny method is limited in its inventor u'\u005cu2019' s knowledge and understandings of problems
+p557
+aV3) People
+p558
+aVCognition scientists simulated human reading and understanding process as a series of propositions input and reduction cycles [Kintsch and Dijk, 1978; Britton and Graesser, 1996]
+p559
+aVEvolutionism concerns the process of mental development and innate mental structures [Stern, 1985]
+p560
+aVI lived in a small but very beautiful hotel
+p561
+aVTrees Garden Sea Beauty
+p562
+aV2) Humans create and use languages to realize interaction between minds
+p563
+aVSemantics cannot be directly derived from structure
+p564
+aVb) Cognitive level
+p565
+aVThe cognitive hierarchy of different communities corresponds to different sub-graphs of the hierarchy and has different basic cognitive levels
+p566
+aVA summary should be self-complete eader u'\u005cu2019' s interest should be included
+p567
+aVCompose the extracted units to get fluent new text
+p568
+aVIt believes that knowledge comes from experience and emphasizes evidence, especially data sensed through equipment or derived from experiment
+p569
+aV1) Generalization and specialization threads through a topic tree
+p570
+aVIt assumes that knowledge (including method) is convincible and reliable, at least within a certain scope
+p571
+aV2) Location
+p572
+aVIt is important in video management, retrieval and browsing
+p573
+aVFuzzy set was used to summarize data structures [Yager, 1982] [G
+p574
+aV7) Other methods, including information extraction (extracting entities, relations, and structures), document compression, ranking method [Rau, et al., 1989] [Daumé III, et al., 2004] [Carbonell, 1998], probabilistic approaches [Knight, 2002] [Qazvinian et al., 2010], and citation-based approaches [Abu-Jbara and Radev 2011] [Elkiss et al., 2008]
+p575
+aVFeatures such as frequency of words and phrases, locations, and ranks of sentences were used to extract important sentences [Baxendale, 1958] [Edmundson, 1969]
+p576
+aVThe summarization of relational database takes table as input and produces a reduced version of the table through rewriting and generalization
+p577
+aVHumans have been pursuing the ways to represent thoughts, behaviors, artifacts and the nature
+p578
+aVFor example, the sentence  u'\u005cu201c' It u'\u005cu2019' s Greek to me u'\u005cu201d'  appeared in text implicitly cite the scenario used in 1599 in Shakespeare's play Julius Caesar, and  u'\u005cu201c' into thin air u'\u005cu201d'  cites the book written by Jon Krakauer published in 1997 and many other earlier works
+p579
+aVMethods for creating and evaluating summaries are usually coordinated each other [Hahn, 2000]
+p580
+aVOn the other hand, the input should match readers u'\u005cu2019'  interest first
+p581
+aVThe innate mental structure that equips a man (especially a child) to interact with the world includes more than Chomsky u'\u005cu2019' s universal grammar of linguistic structure
+p582
+aVApplications include summarizing positive and negative classifications in texts [Hu and Liu, 2004] [Pang and Lee, 2004]
+p583
+aVIt argues that knowledge comes from practical use
+p584
+aVLow-level features such as color, boundary, and shot classification can help summarize videos
+p585
+aVThe new interfaces provide a new cognitive environment for humans
+p586
+aVEvaluation concerns human, semi-automatic and automatic methods based on the pre-defined standards [Mani and Maybury, 1999]
+p587
+aVThe relations between language and brain have attracted many researchers [Friederici, 2000] [Bates and Dick, 2002]
+p588
+aVMoving from one point to the other point changes the projections at every dimension
+p589
+aVVersatile summaries accompany our daily life
+p590
+aV2) Transform a point or a subspace of A into a point or a subspace in the user personal spaces (denoted as B, C and D), which are also multi-dimensional classification spaces that represent users u'\u005cu2019'  interests and personalities
+p591
+aVActually, reviews and comments in cyberspace are open, easily available, and valuable for composing and improving summaries
+p592
+aVExisting research is generally empirical and focuses on particular applications
+p593
+aVDifferent dimensions regulate different classes of method
+p594
+aVEvaluation is needed to ensure the effectiveness of reading
+p595
+aVSummarizing a large-scale graph of data is important to graph data management as it can render the patterns hidden in data [Navlakha, 2008] [Tian, 2008]
+p596
+aV2) Information retrieval
+p597
+aVMethods can be classified by input and output
+p598
+aVIt records the development track of science
+p599
+aVc) Shrink the low rank paragraphs as hyperlinks d) Do (a) if the size of the text is greater than expected, otherwise end
+p600
+aVA picture can convey meaning in about 1-10 seconds due to its familiarity and complexity to the viewer
+p601
+aVAxiom (Additive Axiom
+p602
+aV1) Simple structure
+p603
+aVIt believes that complex systems or species develop through evolution
+p604
+aVSome implicit citations have mark words such as  u'\u005cu201c' someone says u'\u005cu201d'  and according to  u'\u005cu201c' someone u'\u005cu2019' s opinion u'\u005cu201d'
+p605
+aVDetermine the order of the extracted units
+p606
+aVThe categorical organization of knowledge strongly influences the way to encode and remember experiences [Anderson, 2010]
+p607
+aVActually, people do not rely on grammar to communicate with each other in daily life
+p608
+aVThe generic summarizers usually generate important contents in text(s) without considering users
+p609
+aV4D printer will further extend display to the formation of the objects sensed from more dimensions
+p610
+aVModern movies provide more channels (e.g.,, voice and music) for understanding than early silent movies
+p611
+aVOptimizing the layout of display needs to consider three dimensions
+p612
+aVFrom the pragmatism point of view, ontology was developed by IT professionals for information sharing [Gruber, 1993] [Ashburner, 2000]
+p613
+aVSummarizing data streams supports more general fundamental queries on data streams such as point, range, and inner-product queries [G.Cormode and S
+p614
+aVThe advanced summarizer could create new objects that can be seen, touched, smelled, heard and even tasted
+p615
+aVRational study derives new theories and methods according to existing theories, methods and phenomena
+p616
+aVClassification and Clustering
+p617
+aV3) Closed system
+p618
+aVStatistics is a useful means for machines to summarize graphs
+p619
+aVHumans share the same underlying linguistic structure [Chomsky, 1986, 2006]
+p620
+aVThe cyberspace including the Wikipedia is reflecting more and more of the hierarchy of the universal concepts
+p621
+aV{p,  u'\u005cu2026' , p}, which represents a recursive structure of an abstraction p (p), an union p  u'\u005cu222a'   u'\u005cu2026'   u'\u005cu222a'  p, and a set of representations {p,  u'\u005cu2026' , p}
+p622
+aV1995] [Daumé and Marcu 2006][Louis, 2014], rich features and decision trees [Lin and Hovy, 1997], Markov Models [Conroy, 2001], Neural Networks [Nenkova, 2005], classification [Teufel 2002] [Pang and Lee, 2004], and hybrid machine learning method [Fattah, 2014]
+p623
+aVMethodology has not been formed to guide research and development
+p624
+aVMethods can also be classified by techniques as follows
+p625
+aVLast year, to present a paper, I attended CIKM2012 held in Hawaii, United State of American
+p626
+aVIt is usually used with graph analysis and information retrieval [Erkan, 2004] [Hilda Hardy, 2002]
+p627
+aVThe following are some problems and strategies
+p628
+aVMore phenomena have shown that what a man (especially a child) learns about the world is based on an innate mental structure [MacCarthy, 2007, 2008]
+p629
+aVFor particular applications like football games [Ekin, 2003], important sections such as slow-motion segments and goals in game are known by humans, so it is easy to find the important sections
+p630
+aVFor example,  u'\u005cu2018' A love story u'\u005cu2019'  is the high-level summarization of a novel, but the word  u'\u005cu2018' story u'\u005cu2019'  may not be an important word in the novel or it even does not appear in the novel
+p631
+aVThe approach to summarizing differences between document groups was studied [Wang, et al., 2012]
+p632
+aVScanning the symbols in a novel generates some images in mind, and the images emerge before symbols when recall
+p633
+aV5) Classification and clustering
+p634
+aV4) Category
+p635
+aVThis is the psychological basis of classification
+p636
+aVMaking abstraction on graph components can be done through mathematical derivation
+p637
+aVSome scientists tried to codify many commonsense to enable computers to have artificial intelligence beyond algorithm [Lenat, etc
+p638
+aVSimilar images will be generated when seeing the movie about the novel
+p639
+aVEmpirical research has been done in this direction [Zhu, 2007] [UzZaman, 2011] [Agrawal, 2011]
+p640
+aVResearchers have made great efforts to find the better solution
+p641
+aVOriginal innovation, especially systematic and fundamental innovation, has become more and more difficult
+p642
+aVPeople could hold what they think and write
+p643
+aVInterest
+p644
+aVTherefore, we have the following definition
+p645
+aVPhysical instruments such as functional magnetic resonance imaging fMRI and electroencephalography EGG have been used to detect the physical status of mind [Turkeltaub, 2002]
+p646
+aVThere are two types of outputs
+p647
+aVApplications include Web portals such as Yahoo, YouTube, posters, slides, medical certificate, TV guides, advertisements and conference programs
+p648
+aVThere are three types of inputs
+p649
+aVThe query-focused summarizers generate responses to user queries
+p650
+aVIt becomes more and more important with wide use of digital cameras in our society for security, news, entertainment, education, advertisements, etc
+p651
+aV1) Reader
+p652
+aVIt is usually emphasized in various ways to attract attention
+p653
+aVand economic aspects
+p654
+aVHowever, different communities can have different cognitive levels
+p655
+aV1) Information fusion
+p656
+aVHowever, a pre-designed format cannot adapt to user requirements
+p657
+aVAppropriate coordination between different forms concerns humanity and sociology
+p658
+aVThe resulting table is expected to provide tuples with less precision than the original but more informative [Saint-Paul, 2005]
+p659
+aVIntegrating different methods is a way to break the limitations
+p660
+aVI can see the sea from the windows of my room
+p661
+aV3) Machine learning
+p662
+aV5) Emerging
+p663
+aVThe following are possible forms of interface
+p664
+aV6) Usage
+p665
+aVResearchers have to focus on the literature within recent years
+p666
+aV[Brandow et al, 1995] [Regina Barzilay and Mirella Lapata, 2008] c) Completeness
+p667
+aVSolving the problems emerged in practice provides instances for rational thinking and verification
+p668
+aVSometimes, pursuing unity is an adventure like the pursuit of a unified field theory
+p669
+aV3) Input
+p670
+aVSub-dimensions can be arranged according to the measure of relevance between coordinates
+p671
+aVClassifying & Linking
+p672
+aVIn some areas like CAD, graph components have formal specifications
+p673
+aVAn eye tracking mechanism can help automatically locate the scope
+p674
+aVIt includes the following sub-dimensions
+p675
+aVThe arrows in red color denote the following transformations
+p676
+aV4) Multimedia
+p677
+aVI can often see rainbows after raining
+p678
+aV2) Hypertext
+p679
+aV6) New devices
+p680
+aV2) Evolutionism
+p681
+aV4) Rationalism
+p682
+aV5) Pragmatism
+p683
+aV1) Empiricism
+p684
+aVb) Adaptability
+p685
+aV2) Automation
+p686
+aV2) Ordering
+p687
+aV3) Realization
+p688
+aVMouaddib, 2002]
+p689
+aVMuthukrishnan, 2005]
+p690
+aVFoucault, 1966, 1969]
+p691
+aVRaschia and N
+p692
+aVExt(P) ={Int(qi)  u'\u005cu222a'  Int(oj p u'\u005cu2192'  qi, oj u'\u005cu2192' p, i, j u'\u005cu2208' [1,  u'\u005cu2026' , n] , p u'\u005cu2208' P}
+p693
+aVThis has led to more and more reinventions
+p694
+aV1
+p695
+aVInt(P) = <Core(p), Core(p)  u'\u005cu222a'  {Cite(ok u'\u005cu2192' p k u'\u005cu2208' [1,  u'\u005cu2026' , n], p u'\u005cu2208' P}>
+p696
+aV6) Semantics-based
+p697
+aV1991]
+p698
+aVS(P) = <S(Int(P)), S(Int(P) u'\u005cu222a' Ext(P))>
+p699
+aVF
+p700
+a.

@@ -1,0 +1,28 @@
+(lp0
+VA summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users
+p1
+aVThe intention of representation is indicated by core representations and by citation from other representations
+p2
+aVThe summarization of pictures also helps incorporate appropriate pictures into the summary as discussed before
+p3
+aVThe person who shares the represented knowledge and the knowledge for representation is suitable for summarization
+p4
+aVThe basic characteristics and principles of language use and understanding indicate the following dimensions for evaluating a summarization
+p5
+aVThe extension of representation A consists of all representations that cite A and are cited by A
+p6
+aVThe knowledge provides the rules of representation and understanding
+p7
+aVThe intention of a representation is rendered by commonsense, which is indicated by the basic representations
+p8
+aVThe form of summary can be a semantic link network of texts, pictures, audios, and videos
+p9
+aVThe core representations in one representation (e.g.,, text) render its topic
+p10
+aVsummary should use the core representations in the original representation
+p11
+aVThe original structure of the core representations takes the priority to appear in summary
+p12
+aVThe evaluation of summarization follows some principles
+p13
+a.

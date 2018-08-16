@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>testdimension_4.txt.pk</title>
+</head>
+<body bgcolor="white">
+<a name="1">[1]</a> <a href="#1" id=1>e) Construct a semantic link network of pictures, tags and language representations in relevant texts as the summary.</a>
+<a name="2">[2]</a> <a href="#2" id=2>A summarization system consisting of a multi-dimensional classification space of summary in form of semantic link network of pictures and language representations and a requirement space defined and managed by users.</a>
+<a name="3">[3]</a> <a href="#3" id=3>The form of summary can be a semantic link network of texts, pictures, audios, and videos.</a>
+<a name="4">[4]</a> <a href="#4" id=4>summary should use the core representations in the original representation.</a>
+<a name="5">[5]</a> <a href="#5" id=5>The core representations in one representation (e.g.,, text) render its topic.</a>
+<a name="6">[6]</a> <a href="#6" id=6>Summarization is involved in representation and understanding.</a>
+<a name="7">[7]</a> <a href="#7" id=7>The intention of representation is indicated by core representations and by citation from other representations.</a>
+<a name="8">[8]</a> <a href="#8" id=8>The core representation renders the core idea of a representation.</a>
+<a name="9">[9]</a> <a href="#9" id=9>One semantic link network of texts can link to the other semantic link networks of texts to form a larger semantic link network through such relations as citation and coauthor.</a>
+<a name="10">[10]</a> <a href="#10" id=10>The representation that has a direct link to the core representation is close-core representation.</a>
+<a name="11">[11]</a> <a href="#11" id=11>If we regard a text as a graph of words or sentences, text summarization can be regarded as a problem of summarizing a semantic link network [Zhuge, 2009], where nodes and edges can be texts, pictures and videos.</a>
+<a name="12">[12]</a> <a href="#12" id=12>Semantic link Network.</a>
+<a name="13">[13]</a> <a href="#13" id=13>Citation is a basic semantic link of constructing a complex text.</a>
+<a name="14">[14]</a> <a href="#14" id=14>The general summarization inputs a representation and a cognitive level at certain ontology and then outputs a representation lattice and a recommended representation.</a>
+</body>
+</html>
