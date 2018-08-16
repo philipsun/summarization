@@ -10,7 +10,10 @@ One for parsing networks from articles, including, DUC2002, ACL2014 and a single
 Another is for ranking sentences and do ROUGE scores using pyrouge in Windows platform.
 
 Please read the two notes for these two different packages.
+
 readme_paperparse.md for parsing articles.
+
+readme_rankingandsummarization.md for ranking networks and do ROUGE scoring.
 
 
 
